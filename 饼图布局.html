@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+     .bar {
+        display: inline-block;
+        width:20px;
+        height:75px;
+        background-color: teal;
+         margin-right:2px;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>d3 饼图布局</title>
+</head>
+<body>
+
+</body>
+<script src="./lib/d3.js" type="text/javascript"></script>
+<script type="text/javascript">
+     var dataset = [5,10,20,45,6,25];
+     var pie = d3.pie(dataset);
+     var w = 300;
+     var h = 300;
+     var outerRadius = w/2;
+     var innerRadius = w/3;//内心，设置为0则为实心圆
+    //画布大小
+     var svg = d3.select("body").append("svg").attr("width",w).attr("height",h);
+     //设置圆的大小
+     var arc = d3.arc().innerRadius(innerRadius).outerRadius(outerRadius);
+    //生成颜色
+     var color =  d3.scaleOrdinal(d3.schemeCategory10);
+     var arcs = svg.selectAll("g.arc").data(pie(dataset))
+         .enter()
+         .append("g")
+         .attr("class","arc")
+         .attr("transform","translate("+outerRadius+", "+outerRadius+")")
+     arcs.append("path")
+        .attr("fill",function (d,i) {
+            return color(i);
+        })
+        .attr("d",arc)
+
+     arcs.append("text")
+         .attr("transform",function (d) {
+             return "translate("+arc.centroid(d)+")";
+         })
+         .attr("text-anchor","middle")
+         .text(function (d) {
+             return d.value;
+         })
+</script>
+</html>

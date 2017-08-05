@@ -1,0 +1,3189 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'd3' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData d3
+8 silly fetchNamedPackageData d3
+9 silly mapToRegistry name d3
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'd3',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'd3',
+12 silly mapToRegistry   name: 'd3',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/d3
+14 verbose request uri https://registry.npmjs.org/d3
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 16:39:06
+17 verbose request id bd9b5403a1e25ba6
+18 verbose etag W/"591b11af-52b1c"
+19 verbose lastModified Tue, 16 May 2017 14:50:23 GMT
+20 http request GET https://registry.npmjs.org/d3
+21 http 200 https://registry.npmjs.org/d3
+22 verbose headers { server: 'nginx/1.10.1',
+22 verbose headers   'content-type': 'application/json',
+22 verbose headers   'last-modified': 'Fri, 14 Jul 2017 21:03:16 GMT',
+22 verbose headers   etag: 'W/"59693194-53704"',
+22 verbose headers   'content-encoding': 'gzip',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   'content-length': '24709',
+22 verbose headers   'accept-ranges': 'bytes',
+22 verbose headers   date: 'Sat, 15 Jul 2017 08:37:28 GMT',
+22 verbose headers   via: '1.1 varnish',
+22 verbose headers   age: '0',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'x-served-by': 'cache-nrt6135-NRT',
+22 verbose headers   'x-cache': 'HIT',
+22 verbose headers   'x-cache-hits': '1',
+22 verbose headers   'x-timer': 'S1500107848.958670,VS0,VE132',
+22 verbose headers   vary: 'Accept-Encoding, Accept' }
+23 silly get cb [ 200,
+23 silly get   { server: 'nginx/1.10.1',
+23 silly get     'content-type': 'application/json',
+23 silly get     'last-modified': 'Fri, 14 Jul 2017 21:03:16 GMT',
+23 silly get     etag: 'W/"59693194-53704"',
+23 silly get     'content-encoding': 'gzip',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     'content-length': '24709',
+23 silly get     'accept-ranges': 'bytes',
+23 silly get     date: 'Sat, 15 Jul 2017 08:37:28 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     age: '0',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-nrt6135-NRT',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '1',
+23 silly get     'x-timer': 'S1500107848.958670,VS0,VE132',
+23 silly get     vary: 'Accept-Encoding, Accept' } ]
+24 verbose get saving d3 to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\d3\.cache.json
+25 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+26 silly install normalizeTree
+27 silly loadCurrentTree Finishing
+28 silly loadIdealTree Starting
+29 silly install loadIdealTree
+30 silly cloneCurrentTree Starting
+31 silly install cloneCurrentTreeToIdealTree
+32 silly cloneCurrentTree Finishing
+33 silly loadShrinkwrap Starting
+34 silly install loadShrinkwrap
+35 silly loadShrinkwrap Finishing
+36 silly loadAllDepsIntoIdealTree Starting
+37 silly install loadAllDepsIntoIdealTree
+38 silly resolveWithNewModule d3@4.10.0 checking installable status
+39 silly cache add args [ 'd3', null ]
+40 verbose cache add spec d3
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: 'd3',
+41 silly cache add   scope: null,
+41 silly cache add   escapedName: 'd3',
+41 silly cache add   name: 'd3',
+41 silly cache add   rawSpec: '',
+41 silly cache add   spec: 'latest',
+41 silly cache add   type: 'tag' }
+42 silly addNamed d3@latest
+43 verbose addNamed "latest" is being treated as a dist-tag for d3
+44 info addNameTag [ 'd3', 'latest' ]
+45 silly mapToRegistry name d3
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'd3',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   escapedName: 'd3',
+48 silly mapToRegistry   name: 'd3',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/d3
+50 verbose addNameTag registry:https://registry.npmjs.org/d3 not in flight; fetching
+51 verbose get https://registry.npmjs.org/d3 not expired, no request
+52 silly addNameTag next cb for d3 with tag latest
+53 silly addNamed d3@4.10.0
+54 verbose addNamed "4.10.0" is a plain semver version for d3
+55 silly mapToRegistry name d3
+56 silly mapToRegistry using default registry
+57 silly mapToRegistry registry https://registry.npmjs.org/
+58 silly mapToRegistry data Result {
+58 silly mapToRegistry   raw: 'd3',
+58 silly mapToRegistry   scope: null,
+58 silly mapToRegistry   escapedName: 'd3',
+58 silly mapToRegistry   name: 'd3',
+58 silly mapToRegistry   rawSpec: '',
+58 silly mapToRegistry   spec: 'latest',
+58 silly mapToRegistry   type: 'tag' }
+59 silly mapToRegistry uri https://registry.npmjs.org/d3
+60 verbose addRemoteTarball https://registry.npmjs.org/d3/-/d3-4.10.0.tgz not in flight; adding
+61 verbose addRemoteTarball [ 'https://registry.npmjs.org/d3/-/d3-4.10.0.tgz',
+61 verbose addRemoteTarball   '0bcca3a3b614e2fd45b1b5bd0b9164d57352a862' ]
+62 info retry fetch attempt 1 at 16:39:08
+63 info attempt registry request try #1 at 16:39:08
+64 http fetch GET https://registry.npmjs.org/d3/-/d3-4.10.0.tgz
+65 http fetch 200 https://registry.npmjs.org/d3/-/d3-4.10.0.tgz
+66 silly fetchAndShaCheck shasum 0bcca3a3b614e2fd45b1b5bd0b9164d57352a862
+67 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-4636-6bf0ae5b\registry.npmjs.org\d3\-\d3-4.10.0.tgz not in flight; adding
+68 verbose addTmpTarball already have metadata; skipping unpack for d3@4.10.0
+69 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+70 silly cache afterAdd d3@4.10.0
+71 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3\4.10.0\package\package.json not in flight; writing
+72 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+73 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3\4.10.0\package\package.json written
+74 silly fetchNamedPackageData d3-array
+75 silly mapToRegistry name d3-array
+76 silly mapToRegistry using default registry
+77 silly mapToRegistry registry https://registry.npmjs.org/
+78 silly mapToRegistry data Result {
+78 silly mapToRegistry   raw: 'd3-array',
+78 silly mapToRegistry   scope: null,
+78 silly mapToRegistry   escapedName: 'd3-array',
+78 silly mapToRegistry   name: 'd3-array',
+78 silly mapToRegistry   rawSpec: '',
+78 silly mapToRegistry   spec: 'latest',
+78 silly mapToRegistry   type: 'tag' }
+79 silly mapToRegistry uri https://registry.npmjs.org/d3-array
+80 silly fetchNamedPackageData d3-axis
+81 silly mapToRegistry name d3-axis
+82 silly mapToRegistry using default registry
+83 silly mapToRegistry registry https://registry.npmjs.org/
+84 silly mapToRegistry data Result {
+84 silly mapToRegistry   raw: 'd3-axis',
+84 silly mapToRegistry   scope: null,
+84 silly mapToRegistry   escapedName: 'd3-axis',
+84 silly mapToRegistry   name: 'd3-axis',
+84 silly mapToRegistry   rawSpec: '',
+84 silly mapToRegistry   spec: 'latest',
+84 silly mapToRegistry   type: 'tag' }
+85 silly mapToRegistry uri https://registry.npmjs.org/d3-axis
+86 silly fetchNamedPackageData d3-brush
+87 silly mapToRegistry name d3-brush
+88 silly mapToRegistry using default registry
+89 silly mapToRegistry registry https://registry.npmjs.org/
+90 silly mapToRegistry data Result {
+90 silly mapToRegistry   raw: 'd3-brush',
+90 silly mapToRegistry   scope: null,
+90 silly mapToRegistry   escapedName: 'd3-brush',
+90 silly mapToRegistry   name: 'd3-brush',
+90 silly mapToRegistry   rawSpec: '',
+90 silly mapToRegistry   spec: 'latest',
+90 silly mapToRegistry   type: 'tag' }
+91 silly mapToRegistry uri https://registry.npmjs.org/d3-brush
+92 silly fetchNamedPackageData d3-chord
+93 silly mapToRegistry name d3-chord
+94 silly mapToRegistry using default registry
+95 silly mapToRegistry registry https://registry.npmjs.org/
+96 silly mapToRegistry data Result {
+96 silly mapToRegistry   raw: 'd3-chord',
+96 silly mapToRegistry   scope: null,
+96 silly mapToRegistry   escapedName: 'd3-chord',
+96 silly mapToRegistry   name: 'd3-chord',
+96 silly mapToRegistry   rawSpec: '',
+96 silly mapToRegistry   spec: 'latest',
+96 silly mapToRegistry   type: 'tag' }
+97 silly mapToRegistry uri https://registry.npmjs.org/d3-chord
+98 silly fetchNamedPackageData d3-collection
+99 silly mapToRegistry name d3-collection
+100 silly mapToRegistry using default registry
+101 silly mapToRegistry registry https://registry.npmjs.org/
+102 silly mapToRegistry data Result {
+102 silly mapToRegistry   raw: 'd3-collection',
+102 silly mapToRegistry   scope: null,
+102 silly mapToRegistry   escapedName: 'd3-collection',
+102 silly mapToRegistry   name: 'd3-collection',
+102 silly mapToRegistry   rawSpec: '',
+102 silly mapToRegistry   spec: 'latest',
+102 silly mapToRegistry   type: 'tag' }
+103 silly mapToRegistry uri https://registry.npmjs.org/d3-collection
+104 silly fetchNamedPackageData d3-color
+105 silly mapToRegistry name d3-color
+106 silly mapToRegistry using default registry
+107 silly mapToRegistry registry https://registry.npmjs.org/
+108 silly mapToRegistry data Result {
+108 silly mapToRegistry   raw: 'd3-color',
+108 silly mapToRegistry   scope: null,
+108 silly mapToRegistry   escapedName: 'd3-color',
+108 silly mapToRegistry   name: 'd3-color',
+108 silly mapToRegistry   rawSpec: '',
+108 silly mapToRegistry   spec: 'latest',
+108 silly mapToRegistry   type: 'tag' }
+109 silly mapToRegistry uri https://registry.npmjs.org/d3-color
+110 silly fetchNamedPackageData d3-dispatch
+111 silly mapToRegistry name d3-dispatch
+112 silly mapToRegistry using default registry
+113 silly mapToRegistry registry https://registry.npmjs.org/
+114 silly mapToRegistry data Result {
+114 silly mapToRegistry   raw: 'd3-dispatch',
+114 silly mapToRegistry   scope: null,
+114 silly mapToRegistry   escapedName: 'd3-dispatch',
+114 silly mapToRegistry   name: 'd3-dispatch',
+114 silly mapToRegistry   rawSpec: '',
+114 silly mapToRegistry   spec: 'latest',
+114 silly mapToRegistry   type: 'tag' }
+115 silly mapToRegistry uri https://registry.npmjs.org/d3-dispatch
+116 silly fetchNamedPackageData d3-drag
+117 silly mapToRegistry name d3-drag
+118 silly mapToRegistry using default registry
+119 silly mapToRegistry registry https://registry.npmjs.org/
+120 silly mapToRegistry data Result {
+120 silly mapToRegistry   raw: 'd3-drag',
+120 silly mapToRegistry   scope: null,
+120 silly mapToRegistry   escapedName: 'd3-drag',
+120 silly mapToRegistry   name: 'd3-drag',
+120 silly mapToRegistry   rawSpec: '',
+120 silly mapToRegistry   spec: 'latest',
+120 silly mapToRegistry   type: 'tag' }
+121 silly mapToRegistry uri https://registry.npmjs.org/d3-drag
+122 silly fetchNamedPackageData d3-dsv
+123 silly mapToRegistry name d3-dsv
+124 silly mapToRegistry using default registry
+125 silly mapToRegistry registry https://registry.npmjs.org/
+126 silly mapToRegistry data Result {
+126 silly mapToRegistry   raw: 'd3-dsv',
+126 silly mapToRegistry   scope: null,
+126 silly mapToRegistry   escapedName: 'd3-dsv',
+126 silly mapToRegistry   name: 'd3-dsv',
+126 silly mapToRegistry   rawSpec: '',
+126 silly mapToRegistry   spec: 'latest',
+126 silly mapToRegistry   type: 'tag' }
+127 silly mapToRegistry uri https://registry.npmjs.org/d3-dsv
+128 silly fetchNamedPackageData d3-ease
+129 silly mapToRegistry name d3-ease
+130 silly mapToRegistry using default registry
+131 silly mapToRegistry registry https://registry.npmjs.org/
+132 silly mapToRegistry data Result {
+132 silly mapToRegistry   raw: 'd3-ease',
+132 silly mapToRegistry   scope: null,
+132 silly mapToRegistry   escapedName: 'd3-ease',
+132 silly mapToRegistry   name: 'd3-ease',
+132 silly mapToRegistry   rawSpec: '',
+132 silly mapToRegistry   spec: 'latest',
+132 silly mapToRegistry   type: 'tag' }
+133 silly mapToRegistry uri https://registry.npmjs.org/d3-ease
+134 silly fetchNamedPackageData d3-force
+135 silly mapToRegistry name d3-force
+136 silly mapToRegistry using default registry
+137 silly mapToRegistry registry https://registry.npmjs.org/
+138 silly mapToRegistry data Result {
+138 silly mapToRegistry   raw: 'd3-force',
+138 silly mapToRegistry   scope: null,
+138 silly mapToRegistry   escapedName: 'd3-force',
+138 silly mapToRegistry   name: 'd3-force',
+138 silly mapToRegistry   rawSpec: '',
+138 silly mapToRegistry   spec: 'latest',
+138 silly mapToRegistry   type: 'tag' }
+139 silly mapToRegistry uri https://registry.npmjs.org/d3-force
+140 silly fetchNamedPackageData d3-format
+141 silly mapToRegistry name d3-format
+142 silly mapToRegistry using default registry
+143 silly mapToRegistry registry https://registry.npmjs.org/
+144 silly mapToRegistry data Result {
+144 silly mapToRegistry   raw: 'd3-format',
+144 silly mapToRegistry   scope: null,
+144 silly mapToRegistry   escapedName: 'd3-format',
+144 silly mapToRegistry   name: 'd3-format',
+144 silly mapToRegistry   rawSpec: '',
+144 silly mapToRegistry   spec: 'latest',
+144 silly mapToRegistry   type: 'tag' }
+145 silly mapToRegistry uri https://registry.npmjs.org/d3-format
+146 silly fetchNamedPackageData d3-geo
+147 silly mapToRegistry name d3-geo
+148 silly mapToRegistry using default registry
+149 silly mapToRegistry registry https://registry.npmjs.org/
+150 silly mapToRegistry data Result {
+150 silly mapToRegistry   raw: 'd3-geo',
+150 silly mapToRegistry   scope: null,
+150 silly mapToRegistry   escapedName: 'd3-geo',
+150 silly mapToRegistry   name: 'd3-geo',
+150 silly mapToRegistry   rawSpec: '',
+150 silly mapToRegistry   spec: 'latest',
+150 silly mapToRegistry   type: 'tag' }
+151 silly mapToRegistry uri https://registry.npmjs.org/d3-geo
+152 silly fetchNamedPackageData d3-hierarchy
+153 silly mapToRegistry name d3-hierarchy
+154 silly mapToRegistry using default registry
+155 silly mapToRegistry registry https://registry.npmjs.org/
+156 silly mapToRegistry data Result {
+156 silly mapToRegistry   raw: 'd3-hierarchy',
+156 silly mapToRegistry   scope: null,
+156 silly mapToRegistry   escapedName: 'd3-hierarchy',
+156 silly mapToRegistry   name: 'd3-hierarchy',
+156 silly mapToRegistry   rawSpec: '',
+156 silly mapToRegistry   spec: 'latest',
+156 silly mapToRegistry   type: 'tag' }
+157 silly mapToRegistry uri https://registry.npmjs.org/d3-hierarchy
+158 silly fetchNamedPackageData d3-interpolate
+159 silly mapToRegistry name d3-interpolate
+160 silly mapToRegistry using default registry
+161 silly mapToRegistry registry https://registry.npmjs.org/
+162 silly mapToRegistry data Result {
+162 silly mapToRegistry   raw: 'd3-interpolate',
+162 silly mapToRegistry   scope: null,
+162 silly mapToRegistry   escapedName: 'd3-interpolate',
+162 silly mapToRegistry   name: 'd3-interpolate',
+162 silly mapToRegistry   rawSpec: '',
+162 silly mapToRegistry   spec: 'latest',
+162 silly mapToRegistry   type: 'tag' }
+163 silly mapToRegistry uri https://registry.npmjs.org/d3-interpolate
+164 silly fetchNamedPackageData d3-path
+165 silly mapToRegistry name d3-path
+166 silly mapToRegistry using default registry
+167 silly mapToRegistry registry https://registry.npmjs.org/
+168 silly mapToRegistry data Result {
+168 silly mapToRegistry   raw: 'd3-path',
+168 silly mapToRegistry   scope: null,
+168 silly mapToRegistry   escapedName: 'd3-path',
+168 silly mapToRegistry   name: 'd3-path',
+168 silly mapToRegistry   rawSpec: '',
+168 silly mapToRegistry   spec: 'latest',
+168 silly mapToRegistry   type: 'tag' }
+169 silly mapToRegistry uri https://registry.npmjs.org/d3-path
+170 silly fetchNamedPackageData d3-polygon
+171 silly mapToRegistry name d3-polygon
+172 silly mapToRegistry using default registry
+173 silly mapToRegistry registry https://registry.npmjs.org/
+174 silly mapToRegistry data Result {
+174 silly mapToRegistry   raw: 'd3-polygon',
+174 silly mapToRegistry   scope: null,
+174 silly mapToRegistry   escapedName: 'd3-polygon',
+174 silly mapToRegistry   name: 'd3-polygon',
+174 silly mapToRegistry   rawSpec: '',
+174 silly mapToRegistry   spec: 'latest',
+174 silly mapToRegistry   type: 'tag' }
+175 silly mapToRegistry uri https://registry.npmjs.org/d3-polygon
+176 silly fetchNamedPackageData d3-quadtree
+177 silly mapToRegistry name d3-quadtree
+178 silly mapToRegistry using default registry
+179 silly mapToRegistry registry https://registry.npmjs.org/
+180 silly mapToRegistry data Result {
+180 silly mapToRegistry   raw: 'd3-quadtree',
+180 silly mapToRegistry   scope: null,
+180 silly mapToRegistry   escapedName: 'd3-quadtree',
+180 silly mapToRegistry   name: 'd3-quadtree',
+180 silly mapToRegistry   rawSpec: '',
+180 silly mapToRegistry   spec: 'latest',
+180 silly mapToRegistry   type: 'tag' }
+181 silly mapToRegistry uri https://registry.npmjs.org/d3-quadtree
+182 silly fetchNamedPackageData d3-queue
+183 silly mapToRegistry name d3-queue
+184 silly mapToRegistry using default registry
+185 silly mapToRegistry registry https://registry.npmjs.org/
+186 silly mapToRegistry data Result {
+186 silly mapToRegistry   raw: 'd3-queue',
+186 silly mapToRegistry   scope: null,
+186 silly mapToRegistry   escapedName: 'd3-queue',
+186 silly mapToRegistry   name: 'd3-queue',
+186 silly mapToRegistry   rawSpec: '',
+186 silly mapToRegistry   spec: 'latest',
+186 silly mapToRegistry   type: 'tag' }
+187 silly mapToRegistry uri https://registry.npmjs.org/d3-queue
+188 silly fetchNamedPackageData d3-random
+189 silly mapToRegistry name d3-random
+190 silly mapToRegistry using default registry
+191 silly mapToRegistry registry https://registry.npmjs.org/
+192 silly mapToRegistry data Result {
+192 silly mapToRegistry   raw: 'd3-random',
+192 silly mapToRegistry   scope: null,
+192 silly mapToRegistry   escapedName: 'd3-random',
+192 silly mapToRegistry   name: 'd3-random',
+192 silly mapToRegistry   rawSpec: '',
+192 silly mapToRegistry   spec: 'latest',
+192 silly mapToRegistry   type: 'tag' }
+193 silly mapToRegistry uri https://registry.npmjs.org/d3-random
+194 silly fetchNamedPackageData d3-request
+195 silly mapToRegistry name d3-request
+196 silly mapToRegistry using default registry
+197 silly mapToRegistry registry https://registry.npmjs.org/
+198 silly mapToRegistry data Result {
+198 silly mapToRegistry   raw: 'd3-request',
+198 silly mapToRegistry   scope: null,
+198 silly mapToRegistry   escapedName: 'd3-request',
+198 silly mapToRegistry   name: 'd3-request',
+198 silly mapToRegistry   rawSpec: '',
+198 silly mapToRegistry   spec: 'latest',
+198 silly mapToRegistry   type: 'tag' }
+199 silly mapToRegistry uri https://registry.npmjs.org/d3-request
+200 silly fetchNamedPackageData d3-scale
+201 silly mapToRegistry name d3-scale
+202 silly mapToRegistry using default registry
+203 silly mapToRegistry registry https://registry.npmjs.org/
+204 silly mapToRegistry data Result {
+204 silly mapToRegistry   raw: 'd3-scale',
+204 silly mapToRegistry   scope: null,
+204 silly mapToRegistry   escapedName: 'd3-scale',
+204 silly mapToRegistry   name: 'd3-scale',
+204 silly mapToRegistry   rawSpec: '',
+204 silly mapToRegistry   spec: 'latest',
+204 silly mapToRegistry   type: 'tag' }
+205 silly mapToRegistry uri https://registry.npmjs.org/d3-scale
+206 silly fetchNamedPackageData d3-selection
+207 silly mapToRegistry name d3-selection
+208 silly mapToRegistry using default registry
+209 silly mapToRegistry registry https://registry.npmjs.org/
+210 silly mapToRegistry data Result {
+210 silly mapToRegistry   raw: 'd3-selection',
+210 silly mapToRegistry   scope: null,
+210 silly mapToRegistry   escapedName: 'd3-selection',
+210 silly mapToRegistry   name: 'd3-selection',
+210 silly mapToRegistry   rawSpec: '',
+210 silly mapToRegistry   spec: 'latest',
+210 silly mapToRegistry   type: 'tag' }
+211 silly mapToRegistry uri https://registry.npmjs.org/d3-selection
+212 silly fetchNamedPackageData d3-shape
+213 silly mapToRegistry name d3-shape
+214 silly mapToRegistry using default registry
+215 silly mapToRegistry registry https://registry.npmjs.org/
+216 silly mapToRegistry data Result {
+216 silly mapToRegistry   raw: 'd3-shape',
+216 silly mapToRegistry   scope: null,
+216 silly mapToRegistry   escapedName: 'd3-shape',
+216 silly mapToRegistry   name: 'd3-shape',
+216 silly mapToRegistry   rawSpec: '',
+216 silly mapToRegistry   spec: 'latest',
+216 silly mapToRegistry   type: 'tag' }
+217 silly mapToRegistry uri https://registry.npmjs.org/d3-shape
+218 silly fetchNamedPackageData d3-time
+219 silly mapToRegistry name d3-time
+220 silly mapToRegistry using default registry
+221 silly mapToRegistry registry https://registry.npmjs.org/
+222 silly mapToRegistry data Result {
+222 silly mapToRegistry   raw: 'd3-time',
+222 silly mapToRegistry   scope: null,
+222 silly mapToRegistry   escapedName: 'd3-time',
+222 silly mapToRegistry   name: 'd3-time',
+222 silly mapToRegistry   rawSpec: '',
+222 silly mapToRegistry   spec: 'latest',
+222 silly mapToRegistry   type: 'tag' }
+223 silly mapToRegistry uri https://registry.npmjs.org/d3-time
+224 silly fetchNamedPackageData d3-time-format
+225 silly mapToRegistry name d3-time-format
+226 silly mapToRegistry using default registry
+227 silly mapToRegistry registry https://registry.npmjs.org/
+228 silly mapToRegistry data Result {
+228 silly mapToRegistry   raw: 'd3-time-format',
+228 silly mapToRegistry   scope: null,
+228 silly mapToRegistry   escapedName: 'd3-time-format',
+228 silly mapToRegistry   name: 'd3-time-format',
+228 silly mapToRegistry   rawSpec: '',
+228 silly mapToRegistry   spec: 'latest',
+228 silly mapToRegistry   type: 'tag' }
+229 silly mapToRegistry uri https://registry.npmjs.org/d3-time-format
+230 silly fetchNamedPackageData d3-timer
+231 silly mapToRegistry name d3-timer
+232 silly mapToRegistry using default registry
+233 silly mapToRegistry registry https://registry.npmjs.org/
+234 silly mapToRegistry data Result {
+234 silly mapToRegistry   raw: 'd3-timer',
+234 silly mapToRegistry   scope: null,
+234 silly mapToRegistry   escapedName: 'd3-timer',
+234 silly mapToRegistry   name: 'd3-timer',
+234 silly mapToRegistry   rawSpec: '',
+234 silly mapToRegistry   spec: 'latest',
+234 silly mapToRegistry   type: 'tag' }
+235 silly mapToRegistry uri https://registry.npmjs.org/d3-timer
+236 silly fetchNamedPackageData d3-transition
+237 silly mapToRegistry name d3-transition
+238 silly mapToRegistry using default registry
+239 silly mapToRegistry registry https://registry.npmjs.org/
+240 silly mapToRegistry data Result {
+240 silly mapToRegistry   raw: 'd3-transition',
+240 silly mapToRegistry   scope: null,
+240 silly mapToRegistry   escapedName: 'd3-transition',
+240 silly mapToRegistry   name: 'd3-transition',
+240 silly mapToRegistry   rawSpec: '',
+240 silly mapToRegistry   spec: 'latest',
+240 silly mapToRegistry   type: 'tag' }
+241 silly mapToRegistry uri https://registry.npmjs.org/d3-transition
+242 silly fetchNamedPackageData d3-voronoi
+243 silly mapToRegistry name d3-voronoi
+244 silly mapToRegistry using default registry
+245 silly mapToRegistry registry https://registry.npmjs.org/
+246 silly mapToRegistry data Result {
+246 silly mapToRegistry   raw: 'd3-voronoi',
+246 silly mapToRegistry   scope: null,
+246 silly mapToRegistry   escapedName: 'd3-voronoi',
+246 silly mapToRegistry   name: 'd3-voronoi',
+246 silly mapToRegistry   rawSpec: '',
+246 silly mapToRegistry   spec: 'latest',
+246 silly mapToRegistry   type: 'tag' }
+247 silly mapToRegistry uri https://registry.npmjs.org/d3-voronoi
+248 silly fetchNamedPackageData d3-zoom
+249 silly mapToRegistry name d3-zoom
+250 silly mapToRegistry using default registry
+251 silly mapToRegistry registry https://registry.npmjs.org/
+252 silly mapToRegistry data Result {
+252 silly mapToRegistry   raw: 'd3-zoom',
+252 silly mapToRegistry   scope: null,
+252 silly mapToRegistry   escapedName: 'd3-zoom',
+252 silly mapToRegistry   name: 'd3-zoom',
+252 silly mapToRegistry   rawSpec: '',
+252 silly mapToRegistry   spec: 'latest',
+252 silly mapToRegistry   type: 'tag' }
+253 silly mapToRegistry uri https://registry.npmjs.org/d3-zoom
+254 verbose request uri https://registry.npmjs.org/d3-axis
+255 verbose request no auth needed
+256 info attempt registry request try #1 at 16:39:19
+257 http request GET https://registry.npmjs.org/d3-axis
+258 verbose request uri https://registry.npmjs.org/d3-brush
+259 verbose request no auth needed
+260 info attempt registry request try #1 at 16:39:19
+261 http request GET https://registry.npmjs.org/d3-brush
+262 verbose request uri https://registry.npmjs.org/d3-chord
+263 verbose request no auth needed
+264 info attempt registry request try #1 at 16:39:19
+265 http request GET https://registry.npmjs.org/d3-chord
+266 verbose request uri https://registry.npmjs.org/d3-dispatch
+267 verbose request no auth needed
+268 info attempt registry request try #1 at 16:39:19
+269 http request GET https://registry.npmjs.org/d3-dispatch
+270 verbose request uri https://registry.npmjs.org/d3-drag
+271 verbose request no auth needed
+272 info attempt registry request try #1 at 16:39:19
+273 http request GET https://registry.npmjs.org/d3-drag
+274 verbose request uri https://registry.npmjs.org/d3-dsv
+275 verbose request no auth needed
+276 info attempt registry request try #1 at 16:39:19
+277 http request GET https://registry.npmjs.org/d3-dsv
+278 verbose request uri https://registry.npmjs.org/d3-ease
+279 verbose request no auth needed
+280 info attempt registry request try #1 at 16:39:19
+281 http request GET https://registry.npmjs.org/d3-ease
+282 verbose request uri https://registry.npmjs.org/d3-force
+283 verbose request no auth needed
+284 info attempt registry request try #1 at 16:39:19
+285 http request GET https://registry.npmjs.org/d3-force
+286 verbose request uri https://registry.npmjs.org/d3-geo
+287 verbose request no auth needed
+288 info attempt registry request try #1 at 16:39:19
+289 http request GET https://registry.npmjs.org/d3-geo
+290 verbose request uri https://registry.npmjs.org/d3-hierarchy
+291 verbose request no auth needed
+292 info attempt registry request try #1 at 16:39:19
+293 http request GET https://registry.npmjs.org/d3-hierarchy
+294 verbose request uri https://registry.npmjs.org/d3-polygon
+295 verbose request no auth needed
+296 info attempt registry request try #1 at 16:39:19
+297 http request GET https://registry.npmjs.org/d3-polygon
+298 verbose request uri https://registry.npmjs.org/d3-quadtree
+299 verbose request no auth needed
+300 info attempt registry request try #1 at 16:39:19
+301 http request GET https://registry.npmjs.org/d3-quadtree
+302 verbose request uri https://registry.npmjs.org/d3-queue
+303 verbose request no auth needed
+304 info attempt registry request try #1 at 16:39:19
+305 http request GET https://registry.npmjs.org/d3-queue
+306 verbose request uri https://registry.npmjs.org/d3-random
+307 verbose request no auth needed
+308 info attempt registry request try #1 at 16:39:19
+309 http request GET https://registry.npmjs.org/d3-random
+310 verbose request uri https://registry.npmjs.org/d3-request
+311 verbose request no auth needed
+312 info attempt registry request try #1 at 16:39:19
+313 http request GET https://registry.npmjs.org/d3-request
+314 verbose request uri https://registry.npmjs.org/d3-selection
+315 verbose request no auth needed
+316 info attempt registry request try #1 at 16:39:19
+317 http request GET https://registry.npmjs.org/d3-selection
+318 verbose request uri https://registry.npmjs.org/d3-timer
+319 verbose request no auth needed
+320 info attempt registry request try #1 at 16:39:19
+321 http request GET https://registry.npmjs.org/d3-timer
+322 verbose request uri https://registry.npmjs.org/d3-transition
+323 verbose request no auth needed
+324 info attempt registry request try #1 at 16:39:19
+325 http request GET https://registry.npmjs.org/d3-transition
+326 verbose request uri https://registry.npmjs.org/d3-voronoi
+327 verbose request no auth needed
+328 info attempt registry request try #1 at 16:39:19
+329 http request GET https://registry.npmjs.org/d3-voronoi
+330 verbose request uri https://registry.npmjs.org/d3-zoom
+331 verbose request no auth needed
+332 info attempt registry request try #1 at 16:39:19
+333 http request GET https://registry.npmjs.org/d3-zoom
+334 verbose request uri https://registry.npmjs.org/d3-array
+335 verbose request no auth needed
+336 info attempt registry request try #1 at 16:39:19
+337 verbose etag W/"58f1aa7e-fd2e"
+338 verbose lastModified Sat, 15 Apr 2017 05:07:10 GMT
+339 http request GET https://registry.npmjs.org/d3-array
+340 verbose request uri https://registry.npmjs.org/d3-color
+341 verbose request no auth needed
+342 info attempt registry request try #1 at 16:39:19
+343 verbose etag W/"58c2ec8c-d11a"
+344 verbose lastModified Fri, 10 Mar 2017 18:12:28 GMT
+345 http request GET https://registry.npmjs.org/d3-color
+346 verbose request uri https://registry.npmjs.org/d3-interpolate
+347 verbose request no auth needed
+348 info attempt registry request try #1 at 16:39:19
+349 verbose etag W/"5919f6cb-13215"
+350 verbose lastModified Mon, 15 May 2017 18:43:23 GMT
+351 http request GET https://registry.npmjs.org/d3-interpolate
+352 verbose request uri https://registry.npmjs.org/d3-collection
+353 verbose request no auth needed
+354 info attempt registry request try #1 at 16:39:19
+355 verbose etag W/"58c2ecda-9f43"
+356 verbose lastModified Fri, 10 Mar 2017 18:13:46 GMT
+357 http request GET https://registry.npmjs.org/d3-collection
+358 verbose request uri https://registry.npmjs.org/d3-format
+359 verbose request no auth needed
+360 info attempt registry request try #1 at 16:39:19
+361 verbose etag W/"58e2984a-d0d5"
+362 verbose lastModified Mon, 03 Apr 2017 18:45:30 GMT
+363 http request GET https://registry.npmjs.org/d3-format
+364 verbose request uri https://registry.npmjs.org/d3-time
+365 verbose request no auth needed
+366 info attempt registry request try #1 at 16:39:19
+367 verbose etag W/"58c2e667-122d3"
+368 verbose lastModified Fri, 10 Mar 2017 17:46:15 GMT
+369 http request GET https://registry.npmjs.org/d3-time
+370 verbose request uri https://registry.npmjs.org/d3-shape
+371 verbose request no auth needed
+372 info attempt registry request try #1 at 16:39:19
+373 verbose etag W/"591b1543-1c558"
+374 verbose lastModified Tue, 16 May 2017 15:05:39 GMT
+375 http request GET https://registry.npmjs.org/d3-shape
+376 verbose request uri https://registry.npmjs.org/d3-path
+377 verbose request no auth needed
+378 info attempt registry request try #1 at 16:39:19
+379 verbose etag W/"58c2e91b-8a81"
+380 verbose lastModified Fri, 10 Mar 2017 17:57:47 GMT
+381 http request GET https://registry.npmjs.org/d3-path
+382 verbose request uri https://registry.npmjs.org/d3-time-format
+383 verbose request no auth needed
+384 info attempt registry request try #1 at 16:39:19
+385 verbose etag W/"58c2e610-df0a"
+386 verbose lastModified Fri, 10 Mar 2017 17:44:48 GMT
+387 http request GET https://registry.npmjs.org/d3-time-format
+388 verbose request uri https://registry.npmjs.org/d3-scale
+389 verbose request no auth needed
+390 info attempt registry request try #1 at 16:39:20
+391 verbose etag W/"5919fbeb-234e9"
+392 verbose lastModified Mon, 15 May 2017 19:05:15 GMT
+393 http request GET https://registry.npmjs.org/d3-scale
+394 http 200 https://registry.npmjs.org/d3-voronoi
+395 verbose headers { server: 'nginx/1.10.1',
+395 verbose headers   'content-type': 'application/json',
+395 verbose headers   'last-modified': 'Fri, 10 Mar 2017 18:23:22 GMT',
+395 verbose headers   etag: 'W/"58c2ef1a-a925"',
+395 verbose headers   'content-encoding': 'gzip',
+395 verbose headers   'cache-control': 'max-age=300',
+395 verbose headers   'content-length': '6606',
+395 verbose headers   'accept-ranges': 'bytes',
+395 verbose headers   date: 'Sat, 15 Jul 2017 08:37:40 GMT',
+395 verbose headers   via: '1.1 varnish',
+395 verbose headers   age: '0',
+395 verbose headers   connection: 'keep-alive',
+395 verbose headers   'x-served-by': 'cache-nrt6132-NRT',
+395 verbose headers   'x-cache': 'HIT',
+395 verbose headers   'x-cache-hits': '1',
+395 verbose headers   'x-timer': 'S1500107861.780057,VS0,VE129',
+395 verbose headers   vary: 'Accept-Encoding, Accept' }
+396 silly get cb [ 200,
+396 silly get   { server: 'nginx/1.10.1',
+396 silly get     'content-type': 'application/json',
+396 silly get     'last-modified': 'Fri, 10 Mar 2017 18:23:22 GMT',
+396 silly get     etag: 'W/"58c2ef1a-a925"',
+396 silly get     'content-encoding': 'gzip',
+396 silly get     'cache-control': 'max-age=300',
+396 silly get     'content-length': '6606',
+396 silly get     'accept-ranges': 'bytes',
+396 silly get     date: 'Sat, 15 Jul 2017 08:37:40 GMT',
+396 silly get     via: '1.1 varnish',
+396 silly get     age: '0',
+396 silly get     connection: 'keep-alive',
+396 silly get     'x-served-by': 'cache-nrt6132-NRT',
+396 silly get     'x-cache': 'HIT',
+396 silly get     'x-cache-hits': '1',
+396 silly get     'x-timer': 'S1500107861.780057,VS0,VE129',
+396 silly get     vary: 'Accept-Encoding, Accept' } ]
+397 verbose get saving d3-voronoi to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\d3-voronoi\.cache.json
+398 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+399 http 200 https://registry.npmjs.org/d3-timer
+400 verbose headers { server: 'nginx/1.10.1',
+400 verbose headers   'content-type': 'application/json',
+400 verbose headers   'last-modified': 'Mon, 05 Jun 2017 15:06:23 GMT',
+400 verbose headers   etag: 'W/"5935736f-e895"',
+400 verbose headers   'content-encoding': 'gzip',
+400 verbose headers   'cache-control': 'max-age=300',
+400 verbose headers   'content-length': '7089',
+400 verbose headers   'accept-ranges': 'bytes',
+400 verbose headers   date: 'Sat, 15 Jul 2017 08:37:40 GMT',
+400 verbose headers   via: '1.1 varnish',
+400 verbose headers   age: '0',
+400 verbose headers   connection: 'keep-alive',
+400 verbose headers   'x-served-by': 'cache-nrt6124-NRT',
+400 verbose headers   'x-cache': 'HIT',
+400 verbose headers   'x-cache-hits': '1',
+400 verbose headers   'x-timer': 'S1500107861.781886,VS0,VE129',
+400 verbose headers   vary: 'Accept-Encoding, Accept' }
+401 silly get cb [ 200,
+401 silly get   { server: 'nginx/1.10.1',
+401 silly get     'content-type': 'application/json',
+401 silly get     'last-modified': 'Mon, 05 Jun 2017 15:06:23 GMT',
+401 silly get     etag: 'W/"5935736f-e895"',
+401 silly get     'content-encoding': 'gzip',
+401 silly get     'cache-control': 'max-age=300',
+401 silly get     'content-length': '7089',
+401 silly get     'accept-ranges': 'bytes',
+401 silly get     date: 'Sat, 15 Jul 2017 08:37:40 GMT',
+401 silly get     via: '1.1 varnish',
+401 silly get     age: '0',
+401 silly get     connection: 'keep-alive',
+401 silly get     'x-served-by': 'cache-nrt6124-NRT',
+401 silly get     'x-cache': 'HIT',
+401 silly get     'x-cache-hits': '1',
+401 silly get     'x-timer': 'S1500107861.781886,VS0,VE129',
+401 silly get     vary: 'Accept-Encoding, Accept' } ]
+402 verbose get saving d3-timer to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\d3-timer\.cache.json
+403 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+404 http 200 https://registry.npmjs.org/d3-dsv
+405 verbose headers { server: 'nginx/1.10.3',
+405 verbose headers   'content-type': 'application/json',
+405 verbose headers   'last-modified': 'Fri, 10 Mar 2017 18:08:31 GMT',
+405 verbose headers   etag: 'W/"58c2eb9f-10333"',
+405 verbose headers   'content-encoding': 'gzip',
+405 verbose headers   'cache-control': 'max-age=300',
+405 verbose headers   'content-length': '9152',
+405 verbose headers   'accept-ranges': 'bytes',
+405 verbose headers   date: 'Sat, 15 Jul 2017 08:37:40 GMT',
+405 verbose headers   via: '1.1 varnish',
+405 verbose headers   age: '0',
+405 verbose headers   connection: 'keep-alive',
+405 verbose headers   'x-served-by': 'cache-nrt6131-NRT',
+405 verbose headers   'x-cache': 'MISS',
+405 verbose headers   'x-cache-hits': '0',
+405 verbose headers   'x-timer': 'S1500107861.780327,VS0,VE131',
+405 verbose headers   vary: 'Accept-Encoding, Accept' }
+406 silly get cb [ 200,
+406 silly get   { server: 'nginx/1.10.3',
+406 silly get     'content-type': 'application/json',
+406 silly get     'last-modified': 'Fri, 10 Mar 2017 18:08:31 GMT',
+406 silly get     etag: 'W/"58c2eb9f-10333"',
+406 silly get     'content-encoding': 'gzip',
+406 silly get     'cache-control': 'max-age=300',
+406 silly get     'content-length': '9152',
+406 silly get     'accept-ranges': 'bytes',
+406 silly get     date: 'Sat, 15 Jul 2017 08:37:40 GMT',
+406 silly get     via: '1.1 varnish',
+406 silly get     age: '0',
+406 silly get     connection: 'keep-alive',
+406 silly get     'x-served-by': 'cache-nrt6131-NRT',
+406 silly get     'x-cache': 'MISS',
+406 silly get     'x-cache-hits': '0',
+406 silly get     'x-timer': 'S1500107861.780327,VS0,VE131',
+406 silly get     vary: 'Accept-Encoding, Accept' } ]
+407 verbose get saving d3-dsv to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\d3-dsv\.cache.json
+408 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+409 silly resolveWithNewModule d3-timer@1.0.6 checking installable status
+410 silly cache add args [ 'd3-timer@1.0.6', null ]
+411 verbose cache add spec d3-timer@1.0.6
+412 silly cache add parsed spec Result {
+412 silly cache add   raw: 'd3-timer@1.0.6',
+412 silly cache add   scope: null,
+412 silly cache add   escapedName: 'd3-timer',
+412 silly cache add   name: 'd3-timer',
+412 silly cache add   rawSpec: '1.0.6',
+412 silly cache add   spec: '1.0.6',
+412 silly cache add   type: 'version' }
+413 silly addNamed d3-timer@1.0.6
+414 verbose addNamed "1.0.6" is a plain semver version for d3-timer
+415 silly mapToRegistry name d3-timer
+416 silly mapToRegistry using default registry
+417 silly mapToRegistry registry https://registry.npmjs.org/
+418 silly mapToRegistry data Result {
+418 silly mapToRegistry   raw: 'd3-timer',
+418 silly mapToRegistry   scope: null,
+418 silly mapToRegistry   escapedName: 'd3-timer',
+418 silly mapToRegistry   name: 'd3-timer',
+418 silly mapToRegistry   rawSpec: '',
+418 silly mapToRegistry   spec: 'latest',
+418 silly mapToRegistry   type: 'tag' }
+419 silly mapToRegistry uri https://registry.npmjs.org/d3-timer
+420 verbose addNameVersion registry:https://registry.npmjs.org/d3-timer not in flight; fetching
+421 silly resolveWithNewModule d3-voronoi@1.1.2 checking installable status
+422 silly cache add args [ 'd3-voronoi@1.1.2', null ]
+423 verbose cache add spec d3-voronoi@1.1.2
+424 silly cache add parsed spec Result {
+424 silly cache add   raw: 'd3-voronoi@1.1.2',
+424 silly cache add   scope: null,
+424 silly cache add   escapedName: 'd3-voronoi',
+424 silly cache add   name: 'd3-voronoi',
+424 silly cache add   rawSpec: '1.1.2',
+424 silly cache add   spec: '1.1.2',
+424 silly cache add   type: 'version' }
+425 silly addNamed d3-voronoi@1.1.2
+426 verbose addNamed "1.1.2" is a plain semver version for d3-voronoi
+427 silly mapToRegistry name d3-voronoi
+428 silly mapToRegistry using default registry
+429 silly mapToRegistry registry https://registry.npmjs.org/
+430 silly mapToRegistry data Result {
+430 silly mapToRegistry   raw: 'd3-voronoi',
+430 silly mapToRegistry   scope: null,
+430 silly mapToRegistry   escapedName: 'd3-voronoi',
+430 silly mapToRegistry   name: 'd3-voronoi',
+430 silly mapToRegistry   rawSpec: '',
+430 silly mapToRegistry   spec: 'latest',
+430 silly mapToRegistry   type: 'tag' }
+431 silly mapToRegistry uri https://registry.npmjs.org/d3-voronoi
+432 verbose addNameVersion registry:https://registry.npmjs.org/d3-voronoi not in flight; fetching
+433 verbose get https://registry.npmjs.org/d3-timer not expired, no request
+434 verbose get https://registry.npmjs.org/d3-voronoi not expired, no request
+435 silly mapToRegistry name d3-timer
+436 silly mapToRegistry using default registry
+437 silly mapToRegistry registry https://registry.npmjs.org/
+438 silly mapToRegistry data Result {
+438 silly mapToRegistry   raw: 'd3-timer',
+438 silly mapToRegistry   scope: null,
+438 silly mapToRegistry   escapedName: 'd3-timer',
+438 silly mapToRegistry   name: 'd3-timer',
+438 silly mapToRegistry   rawSpec: '',
+438 silly mapToRegistry   spec: 'latest',
+438 silly mapToRegistry   type: 'tag' }
+439 silly mapToRegistry uri https://registry.npmjs.org/d3-timer
+440 verbose addRemoteTarball https://registry.npmjs.org/d3-timer/-/d3-timer-1.0.6.tgz not in flight; adding
+441 verbose addRemoteTarball [ 'https://registry.npmjs.org/d3-timer/-/d3-timer-1.0.6.tgz',
+441 verbose addRemoteTarball   '4044bf15d7025c06ce7d1149f73cd07b54dbd784' ]
+442 silly mapToRegistry name d3-voronoi
+443 silly mapToRegistry using default registry
+444 silly mapToRegistry registry https://registry.npmjs.org/
+445 silly mapToRegistry data Result {
+445 silly mapToRegistry   raw: 'd3-voronoi',
+445 silly mapToRegistry   scope: null,
+445 silly mapToRegistry   escapedName: 'd3-voronoi',
+445 silly mapToRegistry   name: 'd3-voronoi',
+445 silly mapToRegistry   rawSpec: '',
+445 silly mapToRegistry   spec: 'latest',
+445 silly mapToRegistry   type: 'tag' }
+446 silly mapToRegistry uri https://registry.npmjs.org/d3-voronoi
+447 verbose addRemoteTarball https://registry.npmjs.org/d3-voronoi/-/d3-voronoi-1.1.2.tgz not in flight; adding
+448 verbose addRemoteTarball [ 'https://registry.npmjs.org/d3-voronoi/-/d3-voronoi-1.1.2.tgz',
+448 verbose addRemoteTarball   '1687667e8f13a2d158c80c1480c5a29cb0d8973c' ]
+449 silly resolveWithNewModule d3-dsv@1.0.5 checking installable status
+450 silly cache add args [ 'd3-dsv@1.0.5', null ]
+451 verbose cache add spec d3-dsv@1.0.5
+452 silly cache add parsed spec Result {
+452 silly cache add   raw: 'd3-dsv@1.0.5',
+452 silly cache add   scope: null,
+452 silly cache add   escapedName: 'd3-dsv',
+452 silly cache add   name: 'd3-dsv',
+452 silly cache add   rawSpec: '1.0.5',
+452 silly cache add   spec: '1.0.5',
+452 silly cache add   type: 'version' }
+453 silly addNamed d3-dsv@1.0.5
+454 verbose addNamed "1.0.5" is a plain semver version for d3-dsv
+455 silly mapToRegistry name d3-dsv
+456 silly mapToRegistry using default registry
+457 silly mapToRegistry registry https://registry.npmjs.org/
+458 silly mapToRegistry data Result {
+458 silly mapToRegistry   raw: 'd3-dsv',
+458 silly mapToRegistry   scope: null,
+458 silly mapToRegistry   escapedName: 'd3-dsv',
+458 silly mapToRegistry   name: 'd3-dsv',
+458 silly mapToRegistry   rawSpec: '',
+458 silly mapToRegistry   spec: 'latest',
+458 silly mapToRegistry   type: 'tag' }
+459 silly mapToRegistry uri https://registry.npmjs.org/d3-dsv
+460 verbose addNameVersion registry:https://registry.npmjs.org/d3-dsv not in flight; fetching
+461 verbose get https://registry.npmjs.org/d3-dsv not expired, no request
+462 silly mapToRegistry name d3-dsv
+463 silly mapToRegistry using default registry
+464 silly mapToRegistry registry https://registry.npmjs.org/
+465 silly mapToRegistry data Result {
+465 silly mapToRegistry   raw: 'd3-dsv',
+465 silly mapToRegistry   scope: null,
+465 silly mapToRegistry   escapedName: 'd3-dsv',
+465 silly mapToRegistry   name: 'd3-dsv',
+465 silly mapToRegistry   rawSpec: '',
+465 silly mapToRegistry   spec: 'latest',
+465 silly mapToRegistry   type: 'tag' }
+466 silly mapToRegistry uri https://registry.npmjs.org/d3-dsv
+467 verbose addRemoteTarball https://registry.npmjs.org/d3-dsv/-/d3-dsv-1.0.5.tgz not in flight; adding
+468 verbose addRemoteTarball [ 'https://registry.npmjs.org/d3-dsv/-/d3-dsv-1.0.5.tgz',
+468 verbose addRemoteTarball   '419f7db47f628789fc3fdb636e678449d0821136' ]
+469 info retry fetch attempt 1 at 16:39:20
+470 info attempt registry request try #1 at 16:39:20
+471 http fetch GET https://registry.npmjs.org/d3-voronoi/-/d3-voronoi-1.1.2.tgz
+472 info retry fetch attempt 1 at 16:39:20
+473 info attempt registry request try #1 at 16:39:20
+474 http fetch GET https://registry.npmjs.org/d3-timer/-/d3-timer-1.0.6.tgz
+475 info retry fetch attempt 1 at 16:39:20
+476 info attempt registry request try #1 at 16:39:20
+477 http fetch GET https://registry.npmjs.org/d3-dsv/-/d3-dsv-1.0.5.tgz
+478 http 200 https://registry.npmjs.org/d3-zoom
+479 verbose headers { server: 'nginx/1.10.1',
+479 verbose headers   'content-type': 'application/json',
+479 verbose headers   'last-modified': 'Fri, 14 Jul 2017 20:53:58 GMT',
+479 verbose headers   etag: 'W/"59692f66-14d57"',
+479 verbose headers   'content-encoding': 'gzip',
+479 verbose headers   'cache-control': 'max-age=300',
+479 verbose headers   'content-length': '13528',
+479 verbose headers   'accept-ranges': 'bytes',
+479 verbose headers   date: 'Sat, 15 Jul 2017 08:37:40 GMT',
+479 verbose headers   via: '1.1 varnish',
+479 verbose headers   age: '0',
+479 verbose headers   connection: 'keep-alive',
+479 verbose headers   'x-served-by': 'cache-nrt6123-NRT',
+479 verbose headers   'x-cache': 'HIT',
+479 verbose headers   'x-cache-hits': '1',
+479 verbose headers   'x-timer': 'S1500107861.780033,VS0,VE131',
+479 verbose headers   vary: 'Accept-Encoding, Accept' }
+480 silly get cb [ 200,
+480 silly get   { server: 'nginx/1.10.1',
+480 silly get     'content-type': 'application/json',
+480 silly get     'last-modified': 'Fri, 14 Jul 2017 20:53:58 GMT',
+480 silly get     etag: 'W/"59692f66-14d57"',
+480 silly get     'content-encoding': 'gzip',
+480 silly get     'cache-control': 'max-age=300',
+480 silly get     'content-length': '13528',
+480 silly get     'accept-ranges': 'bytes',
+480 silly get     date: 'Sat, 15 Jul 2017 08:37:40 GMT',
+480 silly get     via: '1.1 varnish',
+480 silly get     age: '0',
+480 silly get     connection: 'keep-alive',
+480 silly get     'x-served-by': 'cache-nrt6123-NRT',
+480 silly get     'x-cache': 'HIT',
+480 silly get     'x-cache-hits': '1',
+480 silly get     'x-timer': 'S1500107861.780033,VS0,VE131',
+480 silly get     vary: 'Accept-Encoding, Accept' } ]
+481 verbose get saving d3-zoom to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\d3-zoom\.cache.json
+482 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+483 silly resolveWithNewModule d3-zoom@1.5.0 checking installable status
+484 silly cache add args [ 'd3-zoom@1.5.0', null ]
+485 verbose cache add spec d3-zoom@1.5.0
+486 silly cache add parsed spec Result {
+486 silly cache add   raw: 'd3-zoom@1.5.0',
+486 silly cache add   scope: null,
+486 silly cache add   escapedName: 'd3-zoom',
+486 silly cache add   name: 'd3-zoom',
+486 silly cache add   rawSpec: '1.5.0',
+486 silly cache add   spec: '1.5.0',
+486 silly cache add   type: 'version' }
+487 silly addNamed d3-zoom@1.5.0
+488 verbose addNamed "1.5.0" is a plain semver version for d3-zoom
+489 silly mapToRegistry name d3-zoom
+490 silly mapToRegistry using default registry
+491 silly mapToRegistry registry https://registry.npmjs.org/
+492 silly mapToRegistry data Result {
+492 silly mapToRegistry   raw: 'd3-zoom',
+492 silly mapToRegistry   scope: null,
+492 silly mapToRegistry   escapedName: 'd3-zoom',
+492 silly mapToRegistry   name: 'd3-zoom',
+492 silly mapToRegistry   rawSpec: '',
+492 silly mapToRegistry   spec: 'latest',
+492 silly mapToRegistry   type: 'tag' }
+493 silly mapToRegistry uri https://registry.npmjs.org/d3-zoom
+494 verbose addNameVersion registry:https://registry.npmjs.org/d3-zoom not in flight; fetching
+495 verbose get https://registry.npmjs.org/d3-zoom not expired, no request
+496 silly mapToRegistry name d3-zoom
+497 silly mapToRegistry using default registry
+498 silly mapToRegistry registry https://registry.npmjs.org/
+499 silly mapToRegistry data Result {
+499 silly mapToRegistry   raw: 'd3-zoom',
+499 silly mapToRegistry   scope: null,
+499 silly mapToRegistry   escapedName: 'd3-zoom',
+499 silly mapToRegistry   name: 'd3-zoom',
+499 silly mapToRegistry   rawSpec: '',
+499 silly mapToRegistry   spec: 'latest',
+499 silly mapToRegistry   type: 'tag' }
+500 silly mapToRegistry uri https://registry.npmjs.org/d3-zoom
+501 verbose addRemoteTarball https://registry.npmjs.org/d3-zoom/-/d3-zoom-1.5.0.tgz not in flight; adding
+502 verbose addRemoteTarball [ 'https://registry.npmjs.org/d3-zoom/-/d3-zoom-1.5.0.tgz',
+502 verbose addRemoteTarball   '8417de9a077f98f9ce83b1998efb8ee12b4db26e' ]
+503 info retry fetch attempt 1 at 16:39:20
+504 info attempt registry request try #1 at 16:39:20
+505 http fetch GET https://registry.npmjs.org/d3-zoom/-/d3-zoom-1.5.0.tgz
+506 http 304 https://registry.npmjs.org/d3-interpolate
+507 verbose headers { date: 'Sat, 15 Jul 2017 08:37:40 GMT',
+507 verbose headers   via: '1.1 varnish',
+507 verbose headers   'cache-control': 'max-age=300',
+507 verbose headers   etag: 'W/"5919f6cb-13215"',
+507 verbose headers   age: '0',
+507 verbose headers   connection: 'keep-alive',
+507 verbose headers   'x-served-by': 'cache-nrt6135-NRT',
+507 verbose headers   'x-cache': 'HIT',
+507 verbose headers   'x-cache-hits': '1',
+507 verbose headers   'x-timer': 'S1500107861.911558,VS0,VE129',
+507 verbose headers   vary: 'Accept-Encoding, Accept' }
+508 silly get cb [ 304,
+508 silly get   { date: 'Sat, 15 Jul 2017 08:37:40 GMT',
+508 silly get     via: '1.1 varnish',
+508 silly get     'cache-control': 'max-age=300',
+508 silly get     etag: 'W/"5919f6cb-13215"',
+508 silly get     age: '0',
+508 silly get     connection: 'keep-alive',
+508 silly get     'x-served-by': 'cache-nrt6135-NRT',
+508 silly get     'x-cache': 'HIT',
+508 silly get     'x-cache-hits': '1',
+508 silly get     'x-timer': 'S1500107861.911558,VS0,VE129',
+508 silly get     vary: 'Accept-Encoding, Accept' } ]
+509 verbose etag https://registry.npmjs.org/d3-interpolate from cache
+510 verbose get saving d3-interpolate to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\d3-interpolate\.cache.json
+511 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+512 http 304 https://registry.npmjs.org/d3-array
+513 verbose headers { date: 'Sat, 15 Jul 2017 08:37:40 GMT',
+513 verbose headers   via: '1.1 varnish',
+513 verbose headers   'cache-control': 'max-age=300',
+513 verbose headers   etag: 'W/"58f1aa7e-fd2e"',
+513 verbose headers   age: '0',
+513 verbose headers   connection: 'keep-alive',
+513 verbose headers   'x-served-by': 'cache-nrt6128-NRT',
+513 verbose headers   'x-cache': 'HIT',
+513 verbose headers   'x-cache-hits': '1',
+513 verbose headers   'x-timer': 'S1500107861.907037,VS0,VE134',
+513 verbose headers   vary: 'Accept-Encoding, Accept' }
+514 silly get cb [ 304,
+514 silly get   { date: 'Sat, 15 Jul 2017 08:37:40 GMT',
+514 silly get     via: '1.1 varnish',
+514 silly get     'cache-control': 'max-age=300',
+514 silly get     etag: 'W/"58f1aa7e-fd2e"',
+514 silly get     age: '0',
+514 silly get     connection: 'keep-alive',
+514 silly get     'x-served-by': 'cache-nrt6128-NRT',
+514 silly get     'x-cache': 'HIT',
+514 silly get     'x-cache-hits': '1',
+514 silly get     'x-timer': 'S1500107861.907037,VS0,VE134',
+514 silly get     vary: 'Accept-Encoding, Accept' } ]
+515 verbose etag https://registry.npmjs.org/d3-array from cache
+516 verbose get saving d3-array to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\d3-array\.cache.json
+517 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+518 http 200 https://registry.npmjs.org/d3-collection
+519 verbose headers { server: 'nginx/1.10.1',
+519 verbose headers   'content-type': 'application/json',
+519 verbose headers   'last-modified': 'Wed, 21 Jun 2017 16:13:58 GMT',
+519 verbose headers   etag: 'W/"594a9b46-a7e9"',
+519 verbose headers   'content-encoding': 'gzip',
+519 verbose headers   'cache-control': 'max-age=300',
+519 verbose headers   'content-length': '7830',
+519 verbose headers   'accept-ranges': 'bytes',
+519 verbose headers   date: 'Sat, 15 Jul 2017 08:37:41 GMT',
+519 verbose headers   via: '1.1 varnish',
+519 verbose headers   age: '0',
+519 verbose headers   connection: 'keep-alive',
+519 verbose headers   'x-served-by': 'cache-nrt6120-NRT',
+519 verbose headers   'x-cache': 'HIT',
+519 verbose headers   'x-cache-hits': '1',
+519 verbose headers   'x-timer': 'S1500107861.912450,VS0,VE129',
+519 verbose headers   vary: 'Accept-Encoding, Accept' }
+520 silly get cb [ 200,
+520 silly get   { server: 'nginx/1.10.1',
+520 silly get     'content-type': 'application/json',
+520 silly get     'last-modified': 'Wed, 21 Jun 2017 16:13:58 GMT',
+520 silly get     etag: 'W/"594a9b46-a7e9"',
+520 silly get     'content-encoding': 'gzip',
+520 silly get     'cache-control': 'max-age=300',
+520 silly get     'content-length': '7830',
+520 silly get     'accept-ranges': 'bytes',
+520 silly get     date: 'Sat, 15 Jul 2017 08:37:41 GMT',
+520 silly get     via: '1.1 varnish',
+520 silly get     age: '0',
+520 silly get     connection: 'keep-alive',
+520 silly get     'x-served-by': 'cache-nrt6120-NRT',
+520 silly get     'x-cache': 'HIT',
+520 silly get     'x-cache-hits': '1',
+520 silly get     'x-timer': 'S1500107861.912450,VS0,VE129',
+520 silly get     vary: 'Accept-Encoding, Accept' } ]
+521 verbose get saving d3-collection to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\d3-collection\.cache.json
+522 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+523 silly resolveWithNewModule d3-array@1.2.0 checking installable status
+524 silly cache add args [ 'd3-array@1.2.0', null ]
+525 verbose cache add spec d3-array@1.2.0
+526 silly cache add parsed spec Result {
+526 silly cache add   raw: 'd3-array@1.2.0',
+526 silly cache add   scope: null,
+526 silly cache add   escapedName: 'd3-array',
+526 silly cache add   name: 'd3-array',
+526 silly cache add   rawSpec: '1.2.0',
+526 silly cache add   spec: '1.2.0',
+526 silly cache add   type: 'version' }
+527 silly addNamed d3-array@1.2.0
+528 verbose addNamed "1.2.0" is a plain semver version for d3-array
+529 silly mapToRegistry name d3-array
+530 silly mapToRegistry using default registry
+531 silly mapToRegistry registry https://registry.npmjs.org/
+532 silly mapToRegistry data Result {
+532 silly mapToRegistry   raw: 'd3-array',
+532 silly mapToRegistry   scope: null,
+532 silly mapToRegistry   escapedName: 'd3-array',
+532 silly mapToRegistry   name: 'd3-array',
+532 silly mapToRegistry   rawSpec: '',
+532 silly mapToRegistry   spec: 'latest',
+532 silly mapToRegistry   type: 'tag' }
+533 silly mapToRegistry uri https://registry.npmjs.org/d3-array
+534 verbose addNameVersion registry:https://registry.npmjs.org/d3-array not in flight; fetching
+535 silly resolveWithNewModule d3-interpolate@1.1.5 checking installable status
+536 silly cache add args [ 'd3-interpolate@1.1.5', null ]
+537 verbose cache add spec d3-interpolate@1.1.5
+538 silly cache add parsed spec Result {
+538 silly cache add   raw: 'd3-interpolate@1.1.5',
+538 silly cache add   scope: null,
+538 silly cache add   escapedName: 'd3-interpolate',
+538 silly cache add   name: 'd3-interpolate',
+538 silly cache add   rawSpec: '1.1.5',
+538 silly cache add   spec: '1.1.5',
+538 silly cache add   type: 'version' }
+539 silly addNamed d3-interpolate@1.1.5
+540 verbose addNamed "1.1.5" is a plain semver version for d3-interpolate
+541 silly mapToRegistry name d3-interpolate
+542 silly mapToRegistry using default registry
+543 silly mapToRegistry registry https://registry.npmjs.org/
+544 silly mapToRegistry data Result {
+544 silly mapToRegistry   raw: 'd3-interpolate',
+544 silly mapToRegistry   scope: null,
+544 silly mapToRegistry   escapedName: 'd3-interpolate',
+544 silly mapToRegistry   name: 'd3-interpolate',
+544 silly mapToRegistry   rawSpec: '',
+544 silly mapToRegistry   spec: 'latest',
+544 silly mapToRegistry   type: 'tag' }
+545 silly mapToRegistry uri https://registry.npmjs.org/d3-interpolate
+546 verbose addNameVersion registry:https://registry.npmjs.org/d3-interpolate not in flight; fetching
+547 silly resolveWithNewModule d3-collection@1.0.4 checking installable status
+548 silly cache add args [ 'd3-collection@1.0.4', null ]
+549 verbose cache add spec d3-collection@1.0.4
+550 silly cache add parsed spec Result {
+550 silly cache add   raw: 'd3-collection@1.0.4',
+550 silly cache add   scope: null,
+550 silly cache add   escapedName: 'd3-collection',
+550 silly cache add   name: 'd3-collection',
+550 silly cache add   rawSpec: '1.0.4',
+550 silly cache add   spec: '1.0.4',
+550 silly cache add   type: 'version' }
+551 silly addNamed d3-collection@1.0.4
+552 verbose addNamed "1.0.4" is a plain semver version for d3-collection
+553 silly mapToRegistry name d3-collection
+554 silly mapToRegistry using default registry
+555 silly mapToRegistry registry https://registry.npmjs.org/
+556 silly mapToRegistry data Result {
+556 silly mapToRegistry   raw: 'd3-collection',
+556 silly mapToRegistry   scope: null,
+556 silly mapToRegistry   escapedName: 'd3-collection',
+556 silly mapToRegistry   name: 'd3-collection',
+556 silly mapToRegistry   rawSpec: '',
+556 silly mapToRegistry   spec: 'latest',
+556 silly mapToRegistry   type: 'tag' }
+557 silly mapToRegistry uri https://registry.npmjs.org/d3-collection
+558 verbose addNameVersion registry:https://registry.npmjs.org/d3-collection not in flight; fetching
+559 http fetch 200 https://registry.npmjs.org/d3-voronoi/-/d3-voronoi-1.1.2.tgz
+560 http fetch 200 https://registry.npmjs.org/d3-timer/-/d3-timer-1.0.6.tgz
+561 verbose get https://registry.npmjs.org/d3-array not expired, no request
+562 verbose get https://registry.npmjs.org/d3-collection not expired, no request
+563 verbose get https://registry.npmjs.org/d3-interpolate not expired, no request
+564 silly fetchAndShaCheck shasum 4044bf15d7025c06ce7d1149f73cd07b54dbd784
+565 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-4636-6bf0ae5b\registry.npmjs.org\d3-timer\-\d3-timer-1.0.6.tgz not in flight; adding
+566 verbose addTmpTarball already have metadata; skipping unpack for d3-timer@1.0.6
+567 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+568 http fetch 200 https://registry.npmjs.org/d3-zoom/-/d3-zoom-1.5.0.tgz
+569 silly mapToRegistry name d3-collection
+570 silly mapToRegistry using default registry
+571 silly mapToRegistry registry https://registry.npmjs.org/
+572 silly mapToRegistry data Result {
+572 silly mapToRegistry   raw: 'd3-collection',
+572 silly mapToRegistry   scope: null,
+572 silly mapToRegistry   escapedName: 'd3-collection',
+572 silly mapToRegistry   name: 'd3-collection',
+572 silly mapToRegistry   rawSpec: '',
+572 silly mapToRegistry   spec: 'latest',
+572 silly mapToRegistry   type: 'tag' }
+573 silly mapToRegistry uri https://registry.npmjs.org/d3-collection
+574 verbose addRemoteTarball https://registry.npmjs.org/d3-collection/-/d3-collection-1.0.4.tgz not in flight; adding
+575 verbose addRemoteTarball [ 'https://registry.npmjs.org/d3-collection/-/d3-collection-1.0.4.tgz',
+575 verbose addRemoteTarball   '342dfd12837c90974f33f1cc0a785aea570dcdc2' ]
+576 info retry fetch attempt 1 at 16:39:20
+577 info attempt registry request try #1 at 16:39:20
+578 http fetch GET https://registry.npmjs.org/d3-collection/-/d3-collection-1.0.4.tgz
+579 http fetch 200 https://registry.npmjs.org/d3-dsv/-/d3-dsv-1.0.5.tgz
+580 silly cache afterAdd d3-array@1.2.0
+581 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-array\1.2.0\package\package.json not in flight; writing
+582 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+583 http 304 https://registry.npmjs.org/d3-color
+584 verbose headers { date: 'Sat, 15 Jul 2017 08:37:41 GMT',
+584 verbose headers   via: '1.1 varnish',
+584 verbose headers   'cache-control': 'max-age=300',
+584 verbose headers   etag: 'W/"58c2ec8c-d11a"',
+584 verbose headers   age: '0',
+584 verbose headers   connection: 'keep-alive',
+584 verbose headers   'x-served-by': 'cache-nrt6127-NRT',
+584 verbose headers   'x-cache': 'HIT',
+584 verbose headers   'x-cache-hits': '1',
+584 verbose headers   'x-timer': 'S1500107861.087058,VS0,VE132',
+584 verbose headers   vary: 'Accept-Encoding, Accept' }
+585 silly get cb [ 304,
+585 silly get   { date: 'Sat, 15 Jul 2017 08:37:41 GMT',
+585 silly get     via: '1.1 varnish',
+585 silly get     'cache-control': 'max-age=300',
+585 silly get     etag: 'W/"58c2ec8c-d11a"',
+585 silly get     age: '0',
+585 silly get     connection: 'keep-alive',
+585 silly get     'x-served-by': 'cache-nrt6127-NRT',
+585 silly get     'x-cache': 'HIT',
+585 silly get     'x-cache-hits': '1',
+585 silly get     'x-timer': 'S1500107861.087058,VS0,VE132',
+585 silly get     vary: 'Accept-Encoding, Accept' } ]
+586 verbose etag https://registry.npmjs.org/d3-color from cache
+587 verbose get saving d3-color to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\d3-color\.cache.json
+588 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+589 http 304 https://registry.npmjs.org/d3-time-format
+590 verbose headers { date: 'Sat, 15 Jul 2017 08:37:41 GMT',
+590 verbose headers   via: '1.1 varnish',
+590 verbose headers   'cache-control': 'max-age=300',
+590 verbose headers   etag: 'W/"58c2e610-df0a"',
+590 verbose headers   age: '0',
+590 verbose headers   connection: 'keep-alive',
+590 verbose headers   'x-served-by': 'cache-nrt6126-NRT',
+590 verbose headers   'x-cache': 'HIT',
+590 verbose headers   'x-cache-hits': '1',
+590 verbose headers   'x-timer': 'S1500107861.089256,VS0,VE131',
+590 verbose headers   vary: 'Accept-Encoding, Accept' }
+591 silly get cb [ 304,
+591 silly get   { date: 'Sat, 15 Jul 2017 08:37:41 GMT',
+591 silly get     via: '1.1 varnish',
+591 silly get     'cache-control': 'max-age=300',
+591 silly get     etag: 'W/"58c2e610-df0a"',
+591 silly get     age: '0',
+591 silly get     connection: 'keep-alive',
+591 silly get     'x-served-by': 'cache-nrt6126-NRT',
+591 silly get     'x-cache': 'HIT',
+591 silly get     'x-cache-hits': '1',
+591 silly get     'x-timer': 'S1500107861.089256,VS0,VE131',
+591 silly get     vary: 'Accept-Encoding, Accept' } ]
+592 verbose etag https://registry.npmjs.org/d3-time-format from cache
+593 verbose get saving d3-time-format to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\d3-time-format\.cache.json
+594 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+595 http 200 https://registry.npmjs.org/d3-quadtree
+596 verbose headers { server: 'nginx/1.10.3',
+596 verbose headers   'content-type': 'application/json',
+596 verbose headers   'last-modified': 'Fri, 10 Mar 2017 17:55:15 GMT',
+596 verbose headers   etag: 'W/"58c2e883-c522"',
+596 verbose headers   'content-encoding': 'gzip',
+596 verbose headers   'cache-control': 'max-age=300',
+596 verbose headers   'content-length': '7442',
+596 verbose headers   'accept-ranges': 'bytes',
+596 verbose headers   date: 'Sat, 15 Jul 2017 08:37:41 GMT',
+596 verbose headers   via: '1.1 varnish',
+596 verbose headers   age: '0',
+596 verbose headers   connection: 'keep-alive',
+596 verbose headers   'x-served-by': 'cache-nrt6130-NRT',
+596 verbose headers   'x-cache': 'HIT',
+596 verbose headers   'x-cache-hits': '1',
+596 verbose headers   'x-timer': 'S1500107861.017556,VS0,VE131',
+596 verbose headers   vary: 'Accept-Encoding, Accept' }
+597 silly get cb [ 200,
+597 silly get   { server: 'nginx/1.10.3',
+597 silly get     'content-type': 'application/json',
+597 silly get     'last-modified': 'Fri, 10 Mar 2017 17:55:15 GMT',
+597 silly get     etag: 'W/"58c2e883-c522"',
+597 silly get     'content-encoding': 'gzip',
+597 silly get     'cache-control': 'max-age=300',
+597 silly get     'content-length': '7442',
+597 silly get     'accept-ranges': 'bytes',
+597 silly get     date: 'Sat, 15 Jul 2017 08:37:41 GMT',
+597 silly get     via: '1.1 varnish',
+597 silly get     age: '0',
+597 silly get     connection: 'keep-alive',
+597 silly get     'x-served-by': 'cache-nrt6130-NRT',
+597 silly get     'x-cache': 'HIT',
+597 silly get     'x-cache-hits': '1',
+597 silly get     'x-timer': 'S1500107861.017556,VS0,VE131',
+597 silly get     vary: 'Accept-Encoding, Accept' } ]
+598 verbose get saving d3-quadtree to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\d3-quadtree\.cache.json
+599 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+600 silly fetchAndShaCheck shasum 419f7db47f628789fc3fdb636e678449d0821136
+601 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-4636-6bf0ae5b\registry.npmjs.org\d3-dsv\-\d3-dsv-1.0.5.tgz not in flight; adding
+602 verbose addTmpTarball already have metadata; skipping unpack for d3-dsv@1.0.5
+603 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+604 http 200 https://registry.npmjs.org/d3-geo
+605 verbose headers { server: 'nginx/1.10.3',
+605 verbose headers   'content-type': 'application/json',
+605 verbose headers   'last-modified': 'Tue, 16 May 2017 14:25:21 GMT',
+605 verbose headers   etag: 'W/"591b0bd1-1a663"',
+605 verbose headers   'content-encoding': 'gzip',
+605 verbose headers   'cache-control': 'max-age=300',
+605 verbose headers   'content-length': '17830',
+605 verbose headers   'accept-ranges': 'bytes',
+605 verbose headers   date: 'Sat, 15 Jul 2017 08:37:40 GMT',
+605 verbose headers   via: '1.1 varnish',
+605 verbose headers   age: '0',
+605 verbose headers   connection: 'keep-alive',
+605 verbose headers   'x-served-by': 'cache-nrt6127-NRT',
+605 verbose headers   'x-cache': 'HIT',
+605 verbose headers   'x-cache-hits': '1',
+605 verbose headers   'x-timer': 'S1500107861.779955,VS0,VE134',
+605 verbose headers   vary: 'Accept-Encoding, Accept' }
+606 silly get cb [ 200,
+606 silly get   { server: 'nginx/1.10.3',
+606 silly get     'content-type': 'application/json',
+606 silly get     'last-modified': 'Tue, 16 May 2017 14:25:21 GMT',
+606 silly get     etag: 'W/"591b0bd1-1a663"',
+606 silly get     'content-encoding': 'gzip',
+606 silly get     'cache-control': 'max-age=300',
+606 silly get     'content-length': '17830',
+606 silly get     'accept-ranges': 'bytes',
+606 silly get     date: 'Sat, 15 Jul 2017 08:37:40 GMT',
+606 silly get     via: '1.1 varnish',
+606 silly get     age: '0',
+606 silly get     connection: 'keep-alive',
+606 silly get     'x-served-by': 'cache-nrt6127-NRT',
+606 silly get     'x-cache': 'HIT',
+606 silly get     'x-cache-hits': '1',
+606 silly get     'x-timer': 'S1500107861.779955,VS0,VE134',
+606 silly get     vary: 'Accept-Encoding, Accept' } ]
+607 verbose get saving d3-geo to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\d3-geo\.cache.json
+608 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+609 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-array\1.2.0\package\package.json written
+610 silly cache afterAdd d3-timer@1.0.6
+611 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-timer\1.0.6\package\package.json not in flight; writing
+612 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+613 http 200 https://registry.npmjs.org/d3-axis
+614 verbose headers { server: 'nginx/1.10.1',
+614 verbose headers   'content-type': 'application/json',
+614 verbose headers   'last-modified': 'Thu, 08 Jun 2017 02:19:21 GMT',
+614 verbose headers   etag: 'W/"5938b429-d19f"',
+614 verbose headers   'content-encoding': 'gzip',
+614 verbose headers   'cache-control': 'max-age=300',
+614 verbose headers   'content-length': '7519',
+614 verbose headers   'accept-ranges': 'bytes',
+614 verbose headers   date: 'Sat, 15 Jul 2017 08:37:40 GMT',
+614 verbose headers   via: '1.1 varnish',
+614 verbose headers   age: '0',
+614 verbose headers   connection: 'keep-alive',
+614 verbose headers   'x-served-by': 'cache-nrt6135-NRT',
+614 verbose headers   'x-cache': 'HIT',
+614 verbose headers   'x-cache-hits': '1',
+614 verbose headers   'x-timer': 'S1500107861.526610,VS0,VE134',
+614 verbose headers   vary: 'Accept-Encoding, Accept' }
+615 silly get cb [ 200,
+615 silly get   { server: 'nginx/1.10.1',
+615 silly get     'content-type': 'application/json',
+615 silly get     'last-modified': 'Thu, 08 Jun 2017 02:19:21 GMT',
+615 silly get     etag: 'W/"5938b429-d19f"',
+615 silly get     'content-encoding': 'gzip',
+615 silly get     'cache-control': 'max-age=300',
+615 silly get     'content-length': '7519',
+615 silly get     'accept-ranges': 'bytes',
+615 silly get     date: 'Sat, 15 Jul 2017 08:37:40 GMT',
+615 silly get     via: '1.1 varnish',
+615 silly get     age: '0',
+615 silly get     connection: 'keep-alive',
+615 silly get     'x-served-by': 'cache-nrt6135-NRT',
+615 silly get     'x-cache': 'HIT',
+615 silly get     'x-cache-hits': '1',
+615 silly get     'x-timer': 'S1500107861.526610,VS0,VE134',
+615 silly get     vary: 'Accept-Encoding, Accept' } ]
+616 verbose get saving d3-axis to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\d3-axis\.cache.json
+617 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+618 silly resolveWithNewModule d3-time-format@2.0.5 checking installable status
+619 silly cache add args [ 'd3-time-format@2.0.5', null ]
+620 verbose cache add spec d3-time-format@2.0.5
+621 silly cache add parsed spec Result {
+621 silly cache add   raw: 'd3-time-format@2.0.5',
+621 silly cache add   scope: null,
+621 silly cache add   escapedName: 'd3-time-format',
+621 silly cache add   name: 'd3-time-format',
+621 silly cache add   rawSpec: '2.0.5',
+621 silly cache add   spec: '2.0.5',
+621 silly cache add   type: 'version' }
+622 silly addNamed d3-time-format@2.0.5
+623 verbose addNamed "2.0.5" is a plain semver version for d3-time-format
+624 silly mapToRegistry name d3-time-format
+625 silly mapToRegistry using default registry
+626 silly mapToRegistry registry https://registry.npmjs.org/
+627 silly mapToRegistry data Result {
+627 silly mapToRegistry   raw: 'd3-time-format',
+627 silly mapToRegistry   scope: null,
+627 silly mapToRegistry   escapedName: 'd3-time-format',
+627 silly mapToRegistry   name: 'd3-time-format',
+627 silly mapToRegistry   rawSpec: '',
+627 silly mapToRegistry   spec: 'latest',
+627 silly mapToRegistry   type: 'tag' }
+628 silly mapToRegistry uri https://registry.npmjs.org/d3-time-format
+629 verbose addNameVersion registry:https://registry.npmjs.org/d3-time-format not in flight; fetching
+630 silly resolveWithNewModule d3-color@1.0.3 checking installable status
+631 silly cache add args [ 'd3-color@1.0.3', null ]
+632 verbose cache add spec d3-color@1.0.3
+633 silly cache add parsed spec Result {
+633 silly cache add   raw: 'd3-color@1.0.3',
+633 silly cache add   scope: null,
+633 silly cache add   escapedName: 'd3-color',
+633 silly cache add   name: 'd3-color',
+633 silly cache add   rawSpec: '1.0.3',
+633 silly cache add   spec: '1.0.3',
+633 silly cache add   type: 'version' }
+634 silly addNamed d3-color@1.0.3
+635 verbose addNamed "1.0.3" is a plain semver version for d3-color
+636 silly mapToRegistry name d3-color
+637 silly mapToRegistry using default registry
+638 silly mapToRegistry registry https://registry.npmjs.org/
+639 silly mapToRegistry data Result {
+639 silly mapToRegistry   raw: 'd3-color',
+639 silly mapToRegistry   scope: null,
+639 silly mapToRegistry   escapedName: 'd3-color',
+639 silly mapToRegistry   name: 'd3-color',
+639 silly mapToRegistry   rawSpec: '',
+639 silly mapToRegistry   spec: 'latest',
+639 silly mapToRegistry   type: 'tag' }
+640 silly mapToRegistry uri https://registry.npmjs.org/d3-color
+641 verbose addNameVersion registry:https://registry.npmjs.org/d3-color not in flight; fetching
+642 silly cache afterAdd d3-interpolate@1.1.5
+643 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-interpolate\1.1.5\package\package.json not in flight; writing
+644 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+645 http fetch 200 https://registry.npmjs.org/d3-collection/-/d3-collection-1.0.4.tgz
+646 verbose get https://registry.npmjs.org/d3-time-format not expired, no request
+647 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-timer\1.0.6\package\package.json written
+648 verbose get https://registry.npmjs.org/d3-color not expired, no request
+649 silly fetchAndShaCheck shasum 342dfd12837c90974f33f1cc0a785aea570dcdc2
+650 silly resolveWithNewModule d3-quadtree@1.0.3 checking installable status
+651 silly cache add args [ 'd3-quadtree@1.0.3', null ]
+652 verbose cache add spec d3-quadtree@1.0.3
+653 silly cache add parsed spec Result {
+653 silly cache add   raw: 'd3-quadtree@1.0.3',
+653 silly cache add   scope: null,
+653 silly cache add   escapedName: 'd3-quadtree',
+653 silly cache add   name: 'd3-quadtree',
+653 silly cache add   rawSpec: '1.0.3',
+653 silly cache add   spec: '1.0.3',
+653 silly cache add   type: 'version' }
+654 silly addNamed d3-quadtree@1.0.3
+655 verbose addNamed "1.0.3" is a plain semver version for d3-quadtree
+656 silly mapToRegistry name d3-quadtree
+657 silly mapToRegistry using default registry
+658 silly mapToRegistry registry https://registry.npmjs.org/
+659 silly mapToRegistry data Result {
+659 silly mapToRegistry   raw: 'd3-quadtree',
+659 silly mapToRegistry   scope: null,
+659 silly mapToRegistry   escapedName: 'd3-quadtree',
+659 silly mapToRegistry   name: 'd3-quadtree',
+659 silly mapToRegistry   rawSpec: '',
+659 silly mapToRegistry   spec: 'latest',
+659 silly mapToRegistry   type: 'tag' }
+660 silly mapToRegistry uri https://registry.npmjs.org/d3-quadtree
+661 verbose addNameVersion registry:https://registry.npmjs.org/d3-quadtree not in flight; fetching
+662 silly cache afterAdd d3-dsv@1.0.5
+663 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-dsv\1.0.5\package\package.json not in flight; writing
+664 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+665 silly resolveWithNewModule d3-geo@1.6.4 checking installable status
+666 silly cache add args [ 'd3-geo@1.6.4', null ]
+667 verbose cache add spec d3-geo@1.6.4
+668 silly cache add parsed spec Result {
+668 silly cache add   raw: 'd3-geo@1.6.4',
+668 silly cache add   scope: null,
+668 silly cache add   escapedName: 'd3-geo',
+668 silly cache add   name: 'd3-geo',
+668 silly cache add   rawSpec: '1.6.4',
+668 silly cache add   spec: '1.6.4',
+668 silly cache add   type: 'version' }
+669 silly addNamed d3-geo@1.6.4
+670 verbose addNamed "1.6.4" is a plain semver version for d3-geo
+671 silly mapToRegistry name d3-geo
+672 silly mapToRegistry using default registry
+673 silly mapToRegistry registry https://registry.npmjs.org/
+674 silly mapToRegistry data Result {
+674 silly mapToRegistry   raw: 'd3-geo',
+674 silly mapToRegistry   scope: null,
+674 silly mapToRegistry   escapedName: 'd3-geo',
+674 silly mapToRegistry   name: 'd3-geo',
+674 silly mapToRegistry   rawSpec: '',
+674 silly mapToRegistry   spec: 'latest',
+674 silly mapToRegistry   type: 'tag' }
+675 silly mapToRegistry uri https://registry.npmjs.org/d3-geo
+676 verbose addNameVersion registry:https://registry.npmjs.org/d3-geo not in flight; fetching
+677 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-4636-6bf0ae5b\registry.npmjs.org\d3-collection\-\d3-collection-1.0.4.tgz not in flight; adding
+678 verbose addTmpTarball already have metadata; skipping unpack for d3-collection@1.0.4
+679 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+680 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-interpolate\1.1.5\package\package.json written
+681 verbose get https://registry.npmjs.org/d3-quadtree not expired, no request
+682 verbose get https://registry.npmjs.org/d3-geo not expired, no request
+683 silly mapToRegistry name d3-quadtree
+684 silly mapToRegistry using default registry
+685 silly mapToRegistry registry https://registry.npmjs.org/
+686 silly mapToRegistry data Result {
+686 silly mapToRegistry   raw: 'd3-quadtree',
+686 silly mapToRegistry   scope: null,
+686 silly mapToRegistry   escapedName: 'd3-quadtree',
+686 silly mapToRegistry   name: 'd3-quadtree',
+686 silly mapToRegistry   rawSpec: '',
+686 silly mapToRegistry   spec: 'latest',
+686 silly mapToRegistry   type: 'tag' }
+687 silly mapToRegistry uri https://registry.npmjs.org/d3-quadtree
+688 verbose addRemoteTarball https://registry.npmjs.org/d3-quadtree/-/d3-quadtree-1.0.3.tgz not in flight; adding
+689 verbose addRemoteTarball [ 'https://registry.npmjs.org/d3-quadtree/-/d3-quadtree-1.0.3.tgz',
+689 verbose addRemoteTarball   'ac7987e3e23fe805a990f28e1b50d38fcb822438' ]
+690 silly mapToRegistry name d3-geo
+691 silly mapToRegistry using default registry
+692 silly mapToRegistry registry https://registry.npmjs.org/
+693 silly mapToRegistry data Result {
+693 silly mapToRegistry   raw: 'd3-geo',
+693 silly mapToRegistry   scope: null,
+693 silly mapToRegistry   escapedName: 'd3-geo',
+693 silly mapToRegistry   name: 'd3-geo',
+693 silly mapToRegistry   rawSpec: '',
+693 silly mapToRegistry   spec: 'latest',
+693 silly mapToRegistry   type: 'tag' }
+694 silly mapToRegistry uri https://registry.npmjs.org/d3-geo
+695 verbose addRemoteTarball https://registry.npmjs.org/d3-geo/-/d3-geo-1.6.4.tgz not in flight; adding
+696 verbose addRemoteTarball [ 'https://registry.npmjs.org/d3-geo/-/d3-geo-1.6.4.tgz',
+696 verbose addRemoteTarball   'f20e1e461cb1845f5a8be55ab6f876542a7e3199' ]
+697 silly resolveWithNewModule d3-axis@1.0.8 checking installable status
+698 silly cache add args [ 'd3-axis@1.0.8', null ]
+699 verbose cache add spec d3-axis@1.0.8
+700 silly cache add parsed spec Result {
+700 silly cache add   raw: 'd3-axis@1.0.8',
+700 silly cache add   scope: null,
+700 silly cache add   escapedName: 'd3-axis',
+700 silly cache add   name: 'd3-axis',
+700 silly cache add   rawSpec: '1.0.8',
+700 silly cache add   spec: '1.0.8',
+700 silly cache add   type: 'version' }
+701 silly addNamed d3-axis@1.0.8
+702 verbose addNamed "1.0.8" is a plain semver version for d3-axis
+703 silly mapToRegistry name d3-axis
+704 silly mapToRegistry using default registry
+705 silly mapToRegistry registry https://registry.npmjs.org/
+706 silly mapToRegistry data Result {
+706 silly mapToRegistry   raw: 'd3-axis',
+706 silly mapToRegistry   scope: null,
+706 silly mapToRegistry   escapedName: 'd3-axis',
+706 silly mapToRegistry   name: 'd3-axis',
+706 silly mapToRegistry   rawSpec: '',
+706 silly mapToRegistry   spec: 'latest',
+706 silly mapToRegistry   type: 'tag' }
+707 silly mapToRegistry uri https://registry.npmjs.org/d3-axis
+708 verbose addNameVersion registry:https://registry.npmjs.org/d3-axis not in flight; fetching
+709 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-dsv\1.0.5\package\package.json written
+710 silly cache afterAdd d3-time-format@2.0.5
+711 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-time-format\2.0.5\package\package.json not in flight; writing
+712 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+713 info retry fetch attempt 1 at 16:39:20
+714 info attempt registry request try #1 at 16:39:20
+715 http fetch GET https://registry.npmjs.org/d3-quadtree/-/d3-quadtree-1.0.3.tgz
+716 silly cache afterAdd d3-color@1.0.3
+717 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-color\1.0.3\package\package.json not in flight; writing
+718 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+719 verbose get https://registry.npmjs.org/d3-axis not expired, no request
+720 silly mapToRegistry name d3-axis
+721 silly mapToRegistry using default registry
+722 silly mapToRegistry registry https://registry.npmjs.org/
+723 silly mapToRegistry data Result {
+723 silly mapToRegistry   raw: 'd3-axis',
+723 silly mapToRegistry   scope: null,
+723 silly mapToRegistry   escapedName: 'd3-axis',
+723 silly mapToRegistry   name: 'd3-axis',
+723 silly mapToRegistry   rawSpec: '',
+723 silly mapToRegistry   spec: 'latest',
+723 silly mapToRegistry   type: 'tag' }
+724 silly mapToRegistry uri https://registry.npmjs.org/d3-axis
+725 verbose addRemoteTarball https://registry.npmjs.org/d3-axis/-/d3-axis-1.0.8.tgz not in flight; adding
+726 verbose addRemoteTarball [ 'https://registry.npmjs.org/d3-axis/-/d3-axis-1.0.8.tgz',
+726 verbose addRemoteTarball   '31a705a0b535e65759de14173a31933137f18efa' ]
+727 info retry fetch attempt 1 at 16:39:20
+728 info attempt registry request try #1 at 16:39:20
+729 http fetch GET https://registry.npmjs.org/d3-geo/-/d3-geo-1.6.4.tgz
+730 silly cache afterAdd d3-collection@1.0.4
+731 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-collection\1.0.4\package\package.json not in flight; writing
+732 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+733 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-time-format\2.0.5\package\package.json written
+734 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-collection\1.0.4\package\package.json written
+735 info retry fetch attempt 1 at 16:39:20
+736 info attempt registry request try #1 at 16:39:20
+737 http fetch GET https://registry.npmjs.org/d3-axis/-/d3-axis-1.0.8.tgz
+738 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-color\1.0.3\package\package.json written
+739 http 200 https://registry.npmjs.org/d3-hierarchy
+740 verbose headers { server: 'nginx/1.10.3',
+740 verbose headers   'content-type': 'application/json',
+740 verbose headers   'last-modified': 'Fri, 09 Jun 2017 19:43:22 GMT',
+740 verbose headers   etag: 'W/"593afa5a-14c08"',
+740 verbose headers   'content-encoding': 'gzip',
+740 verbose headers   'cache-control': 'max-age=300',
+740 verbose headers   'content-length': '14273',
+740 verbose headers   'accept-ranges': 'bytes',
+740 verbose headers   date: 'Sat, 15 Jul 2017 08:37:40 GMT',
+740 verbose headers   via: '1.1 varnish',
+740 verbose headers   age: '0',
+740 verbose headers   connection: 'keep-alive',
+740 verbose headers   'x-served-by': 'cache-nrt6122-NRT',
+740 verbose headers   'x-cache': 'HIT',
+740 verbose headers   'x-cache-hits': '1',
+740 verbose headers   'x-timer': 'S1500107861.730733,VS0,VE132',
+740 verbose headers   vary: 'Accept-Encoding, Accept' }
+741 silly get cb [ 200,
+741 silly get   { server: 'nginx/1.10.3',
+741 silly get     'content-type': 'application/json',
+741 silly get     'last-modified': 'Fri, 09 Jun 2017 19:43:22 GMT',
+741 silly get     etag: 'W/"593afa5a-14c08"',
+741 silly get     'content-encoding': 'gzip',
+741 silly get     'cache-control': 'max-age=300',
+741 silly get     'content-length': '14273',
+741 silly get     'accept-ranges': 'bytes',
+741 silly get     date: 'Sat, 15 Jul 2017 08:37:40 GMT',
+741 silly get     via: '1.1 varnish',
+741 silly get     age: '0',
+741 silly get     connection: 'keep-alive',
+741 silly get     'x-served-by': 'cache-nrt6122-NRT',
+741 silly get     'x-cache': 'HIT',
+741 silly get     'x-cache-hits': '1',
+741 silly get     'x-timer': 'S1500107861.730733,VS0,VE132',
+741 silly get     vary: 'Accept-Encoding, Accept' } ]
+742 verbose get saving d3-hierarchy to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\d3-hierarchy\.cache.json
+743 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+744 http 200 https://registry.npmjs.org/d3-ease
+745 verbose headers { server: 'nginx/1.10.3',
+745 verbose headers   'content-type': 'application/json',
+745 verbose headers   'last-modified': 'Fri, 10 Mar 2017 18:06:56 GMT',
+745 verbose headers   etag: 'W/"58c2eb40-e15a"',
+745 verbose headers   'content-encoding': 'gzip',
+745 verbose headers   'cache-control': 'max-age=300',
+745 verbose headers   'content-length': '7611',
+745 verbose headers   'accept-ranges': 'bytes',
+745 verbose headers   date: 'Sat, 15 Jul 2017 08:37:41 GMT',
+745 verbose headers   via: '1.1 varnish',
+745 verbose headers   age: '0',
+745 verbose headers   connection: 'keep-alive',
+745 verbose headers   'x-served-by': 'cache-nrt6135-NRT',
+745 verbose headers   'x-cache': 'HIT',
+745 verbose headers   'x-cache-hits': '1',
+745 verbose headers   'x-timer': 'S1500107861.780827,VS0,VE622',
+745 verbose headers   vary: 'Accept-Encoding, Accept' }
+746 silly get cb [ 200,
+746 silly get   { server: 'nginx/1.10.3',
+746 silly get     'content-type': 'application/json',
+746 silly get     'last-modified': 'Fri, 10 Mar 2017 18:06:56 GMT',
+746 silly get     etag: 'W/"58c2eb40-e15a"',
+746 silly get     'content-encoding': 'gzip',
+746 silly get     'cache-control': 'max-age=300',
+746 silly get     'content-length': '7611',
+746 silly get     'accept-ranges': 'bytes',
+746 silly get     date: 'Sat, 15 Jul 2017 08:37:41 GMT',
+746 silly get     via: '1.1 varnish',
+746 silly get     age: '0',
+746 silly get     connection: 'keep-alive',
+746 silly get     'x-served-by': 'cache-nrt6135-NRT',
+746 silly get     'x-cache': 'HIT',
+746 silly get     'x-cache-hits': '1',
+746 silly get     'x-timer': 'S1500107861.780827,VS0,VE622',
+746 silly get     vary: 'Accept-Encoding, Accept' } ]
+747 verbose get saving d3-ease to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\d3-ease\.cache.json
+748 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+749 http 200 https://registry.npmjs.org/d3-selection
+750 verbose headers { server: 'nginx/1.10.3',
+750 verbose headers   'content-type': 'application/json',
+750 verbose headers   'last-modified': 'Mon, 15 May 2017 17:35:10 GMT',
+750 verbose headers   etag: 'W/"5919e6ce-21549"',
+750 verbose headers   'content-encoding': 'gzip',
+750 verbose headers   'cache-control': 'max-age=300',
+750 verbose headers   'content-length': '21635',
+750 verbose headers   'accept-ranges': 'bytes',
+750 verbose headers   date: 'Sat, 15 Jul 2017 08:37:40 GMT',
+750 verbose headers   via: '1.1 varnish',
+750 verbose headers   age: '0',
+750 verbose headers   connection: 'keep-alive',
+750 verbose headers   'x-served-by': 'cache-nrt6131-NRT',
+750 verbose headers   'x-cache': 'HIT',
+750 verbose headers   'x-cache-hits': '1',
+750 verbose headers   'x-timer': 'S1500107861.778556,VS0,VE130',
+750 verbose headers   vary: 'Accept-Encoding, Accept' }
+751 silly get cb [ 200,
+751 silly get   { server: 'nginx/1.10.3',
+751 silly get     'content-type': 'application/json',
+751 silly get     'last-modified': 'Mon, 15 May 2017 17:35:10 GMT',
+751 silly get     etag: 'W/"5919e6ce-21549"',
+751 silly get     'content-encoding': 'gzip',
+751 silly get     'cache-control': 'max-age=300',
+751 silly get     'content-length': '21635',
+751 silly get     'accept-ranges': 'bytes',
+751 silly get     date: 'Sat, 15 Jul 2017 08:37:40 GMT',
+751 silly get     via: '1.1 varnish',
+751 silly get     age: '0',
+751 silly get     connection: 'keep-alive',
+751 silly get     'x-served-by': 'cache-nrt6131-NRT',
+751 silly get     'x-cache': 'HIT',
+751 silly get     'x-cache-hits': '1',
+751 silly get     'x-timer': 'S1500107861.778556,VS0,VE130',
+751 silly get     vary: 'Accept-Encoding, Accept' } ]
+752 verbose get saving d3-selection to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\d3-selection\.cache.json
+753 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+754 http 304 https://registry.npmjs.org/d3-path
+755 verbose headers { date: 'Sat, 15 Jul 2017 08:37:40 GMT',
+755 verbose headers   via: '1.1 varnish',
+755 verbose headers   'cache-control': 'max-age=300',
+755 verbose headers   etag: 'W/"58c2e91b-8a81"',
+755 verbose headers   age: '0',
+755 verbose headers   connection: 'keep-alive',
+755 verbose headers   'x-served-by': 'cache-nrt6133-NRT',
+755 verbose headers   'x-cache': 'HIT',
+755 verbose headers   'x-cache-hits': '1',
+755 verbose headers   'x-timer': 'S1500107861.868078,VS0,VE550',
+755 verbose headers   vary: 'Accept-Encoding, Accept' }
+756 silly get cb [ 304,
+756 silly get   { date: 'Sat, 15 Jul 2017 08:37:40 GMT',
+756 silly get     via: '1.1 varnish',
+756 silly get     'cache-control': 'max-age=300',
+756 silly get     etag: 'W/"58c2e91b-8a81"',
+756 silly get     age: '0',
+756 silly get     connection: 'keep-alive',
+756 silly get     'x-served-by': 'cache-nrt6133-NRT',
+756 silly get     'x-cache': 'HIT',
+756 silly get     'x-cache-hits': '1',
+756 silly get     'x-timer': 'S1500107861.868078,VS0,VE550',
+756 silly get     vary: 'Accept-Encoding, Accept' } ]
+757 verbose etag https://registry.npmjs.org/d3-path from cache
+758 verbose get saving d3-path to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\d3-path\.cache.json
+759 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+760 http 200 https://registry.npmjs.org/d3-brush
+761 verbose headers { server: 'nginx/1.10.1',
+761 verbose headers   'content-type': 'application/json',
+761 verbose headers   'last-modified': 'Fri, 10 Mar 2017 18:15:07 GMT',
+761 verbose headers   etag: 'W/"58c2ed2b-d3a2"',
+761 verbose headers   'content-encoding': 'gzip',
+761 verbose headers   'cache-control': 'max-age=300',
+761 verbose headers   'content-length': '8233',
+761 verbose headers   'accept-ranges': 'bytes',
+761 verbose headers   date: 'Sat, 15 Jul 2017 08:37:41 GMT',
+761 verbose headers   via: '1.1 varnish',
+761 verbose headers   age: '0',
+761 verbose headers   connection: 'keep-alive',
+761 verbose headers   'x-served-by': 'cache-nrt6132-NRT',
+761 verbose headers   'x-cache': 'HIT',
+761 verbose headers   'x-cache-hits': '1',
+761 verbose headers   'x-timer': 'S1500107861.829175,VS0,VE564',
+761 verbose headers   vary: 'Accept-Encoding, Accept' }
+762 silly get cb [ 200,
+762 silly get   { server: 'nginx/1.10.1',
+762 silly get     'content-type': 'application/json',
+762 silly get     'last-modified': 'Fri, 10 Mar 2017 18:15:07 GMT',
+762 silly get     etag: 'W/"58c2ed2b-d3a2"',
+762 silly get     'content-encoding': 'gzip',
+762 silly get     'cache-control': 'max-age=300',
+762 silly get     'content-length': '8233',
+762 silly get     'accept-ranges': 'bytes',
+762 silly get     date: 'Sat, 15 Jul 2017 08:37:41 GMT',
+762 silly get     via: '1.1 varnish',
+762 silly get     age: '0',
+762 silly get     connection: 'keep-alive',
+762 silly get     'x-served-by': 'cache-nrt6132-NRT',
+762 silly get     'x-cache': 'HIT',
+762 silly get     'x-cache-hits': '1',
+762 silly get     'x-timer': 'S1500107861.829175,VS0,VE564',
+762 silly get     vary: 'Accept-Encoding, Accept' } ]
+763 verbose get saving d3-brush to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\d3-brush\.cache.json
+764 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+765 silly resolveWithNewModule d3-hierarchy@1.1.5 checking installable status
+766 silly cache add args [ 'd3-hierarchy@1.1.5', null ]
+767 verbose cache add spec d3-hierarchy@1.1.5
+768 silly cache add parsed spec Result {
+768 silly cache add   raw: 'd3-hierarchy@1.1.5',
+768 silly cache add   scope: null,
+768 silly cache add   escapedName: 'd3-hierarchy',
+768 silly cache add   name: 'd3-hierarchy',
+768 silly cache add   rawSpec: '1.1.5',
+768 silly cache add   spec: '1.1.5',
+768 silly cache add   type: 'version' }
+769 silly addNamed d3-hierarchy@1.1.5
+770 verbose addNamed "1.1.5" is a plain semver version for d3-hierarchy
+771 silly mapToRegistry name d3-hierarchy
+772 silly mapToRegistry using default registry
+773 silly mapToRegistry registry https://registry.npmjs.org/
+774 silly mapToRegistry data Result {
+774 silly mapToRegistry   raw: 'd3-hierarchy',
+774 silly mapToRegistry   scope: null,
+774 silly mapToRegistry   escapedName: 'd3-hierarchy',
+774 silly mapToRegistry   name: 'd3-hierarchy',
+774 silly mapToRegistry   rawSpec: '',
+774 silly mapToRegistry   spec: 'latest',
+774 silly mapToRegistry   type: 'tag' }
+775 silly mapToRegistry uri https://registry.npmjs.org/d3-hierarchy
+776 verbose addNameVersion registry:https://registry.npmjs.org/d3-hierarchy not in flight; fetching
+777 silly resolveWithNewModule d3-ease@1.0.3 checking installable status
+778 silly cache add args [ 'd3-ease@1.0.3', null ]
+779 verbose cache add spec d3-ease@1.0.3
+780 silly cache add parsed spec Result {
+780 silly cache add   raw: 'd3-ease@1.0.3',
+780 silly cache add   scope: null,
+780 silly cache add   escapedName: 'd3-ease',
+780 silly cache add   name: 'd3-ease',
+780 silly cache add   rawSpec: '1.0.3',
+780 silly cache add   spec: '1.0.3',
+780 silly cache add   type: 'version' }
+781 silly addNamed d3-ease@1.0.3
+782 verbose addNamed "1.0.3" is a plain semver version for d3-ease
+783 silly mapToRegistry name d3-ease
+784 silly mapToRegistry using default registry
+785 silly mapToRegistry registry https://registry.npmjs.org/
+786 silly mapToRegistry data Result {
+786 silly mapToRegistry   raw: 'd3-ease',
+786 silly mapToRegistry   scope: null,
+786 silly mapToRegistry   escapedName: 'd3-ease',
+786 silly mapToRegistry   name: 'd3-ease',
+786 silly mapToRegistry   rawSpec: '',
+786 silly mapToRegistry   spec: 'latest',
+786 silly mapToRegistry   type: 'tag' }
+787 silly mapToRegistry uri https://registry.npmjs.org/d3-ease
+788 verbose addNameVersion registry:https://registry.npmjs.org/d3-ease not in flight; fetching
+789 http 200 https://registry.npmjs.org/d3-transition
+790 verbose headers { server: 'nginx/1.10.3',
+790 verbose headers   'content-type': 'application/json',
+790 verbose headers   'last-modified': 'Wed, 17 May 2017 08:31:55 GMT',
+790 verbose headers   etag: 'W/"591c0a7b-1a515"',
+790 verbose headers   'content-encoding': 'gzip',
+790 verbose headers   'cache-control': 'max-age=300',
+790 verbose headers   'content-length': '13912',
+790 verbose headers   'accept-ranges': 'bytes',
+790 verbose headers   date: 'Sat, 15 Jul 2017 08:37:41 GMT',
+790 verbose headers   via: '1.1 varnish',
+790 verbose headers   age: '0',
+790 verbose headers   connection: 'keep-alive',
+790 verbose headers   'x-served-by': 'cache-nrt6129-NRT',
+790 verbose headers   'x-cache': 'HIT',
+790 verbose headers   'x-cache-hits': '1',
+790 verbose headers   'x-timer': 'S1500107861.778930,VS0,VE560',
+790 verbose headers   vary: 'Accept-Encoding, Accept' }
+791 silly get cb [ 200,
+791 silly get   { server: 'nginx/1.10.3',
+791 silly get     'content-type': 'application/json',
+791 silly get     'last-modified': 'Wed, 17 May 2017 08:31:55 GMT',
+791 silly get     etag: 'W/"591c0a7b-1a515"',
+791 silly get     'content-encoding': 'gzip',
+791 silly get     'cache-control': 'max-age=300',
+791 silly get     'content-length': '13912',
+791 silly get     'accept-ranges': 'bytes',
+791 silly get     date: 'Sat, 15 Jul 2017 08:37:41 GMT',
+791 silly get     via: '1.1 varnish',
+791 silly get     age: '0',
+791 silly get     connection: 'keep-alive',
+791 silly get     'x-served-by': 'cache-nrt6129-NRT',
+791 silly get     'x-cache': 'HIT',
+791 silly get     'x-cache-hits': '1',
+791 silly get     'x-timer': 'S1500107861.778930,VS0,VE560',
+791 silly get     vary: 'Accept-Encoding, Accept' } ]
+792 verbose get saving d3-transition to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\d3-transition\.cache.json
+793 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+794 http 304 https://registry.npmjs.org/d3-shape
+795 verbose headers { date: 'Sat, 15 Jul 2017 08:37:40 GMT',
+795 verbose headers   via: '1.1 varnish',
+795 verbose headers   'cache-control': 'max-age=300',
+795 verbose headers   etag: 'W/"591b1543-1c558"',
+795 verbose headers   age: '0',
+795 verbose headers   connection: 'keep-alive',
+795 verbose headers   'x-served-by': 'cache-nrt6122-NRT',
+795 verbose headers   'x-cache': 'HIT',
+795 verbose headers   'x-cache-hits': '1',
+795 verbose headers   'x-timer': 'S1500107861.869064,VS0,VE574',
+795 verbose headers   vary: 'Accept-Encoding, Accept' }
+796 silly get cb [ 304,
+796 silly get   { date: 'Sat, 15 Jul 2017 08:37:40 GMT',
+796 silly get     via: '1.1 varnish',
+796 silly get     'cache-control': 'max-age=300',
+796 silly get     etag: 'W/"591b1543-1c558"',
+796 silly get     age: '0',
+796 silly get     connection: 'keep-alive',
+796 silly get     'x-served-by': 'cache-nrt6122-NRT',
+796 silly get     'x-cache': 'HIT',
+796 silly get     'x-cache-hits': '1',
+796 silly get     'x-timer': 'S1500107861.869064,VS0,VE574',
+796 silly get     vary: 'Accept-Encoding, Accept' } ]
+797 verbose etag https://registry.npmjs.org/d3-shape from cache
+798 verbose get saving d3-shape to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\d3-shape\.cache.json
+799 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+800 http 304 https://registry.npmjs.org/d3-scale
+801 verbose headers { date: 'Sat, 15 Jul 2017 08:37:40 GMT',
+801 verbose headers   via: '1.1 varnish',
+801 verbose headers   'cache-control': 'max-age=300',
+801 verbose headers   etag: 'W/"5919fbeb-234e9"',
+801 verbose headers   age: '0',
+801 verbose headers   connection: 'keep-alive',
+801 verbose headers   'x-served-by': 'cache-nrt6134-NRT',
+801 verbose headers   'x-cache': 'HIT',
+801 verbose headers   'x-cache-hits': '1',
+801 verbose headers   'x-timer': 'S1500107861.900190,VS0,VE558',
+801 verbose headers   vary: 'Accept-Encoding, Accept' }
+802 silly get cb [ 304,
+802 silly get   { date: 'Sat, 15 Jul 2017 08:37:40 GMT',
+802 silly get     via: '1.1 varnish',
+802 silly get     'cache-control': 'max-age=300',
+802 silly get     etag: 'W/"5919fbeb-234e9"',
+802 silly get     age: '0',
+802 silly get     connection: 'keep-alive',
+802 silly get     'x-served-by': 'cache-nrt6134-NRT',
+802 silly get     'x-cache': 'HIT',
+802 silly get     'x-cache-hits': '1',
+802 silly get     'x-timer': 'S1500107861.900190,VS0,VE558',
+802 silly get     vary: 'Accept-Encoding, Accept' } ]
+803 verbose etag https://registry.npmjs.org/d3-scale from cache
+804 verbose get saving d3-scale to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\d3-scale\.cache.json
+805 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+806 http fetch 200 https://registry.npmjs.org/d3-axis/-/d3-axis-1.0.8.tgz
+807 http fetch 200 https://registry.npmjs.org/d3-quadtree/-/d3-quadtree-1.0.3.tgz
+808 verbose get https://registry.npmjs.org/d3-hierarchy not expired, no request
+809 verbose get https://registry.npmjs.org/d3-ease not expired, no request
+810 silly mapToRegistry name d3-hierarchy
+811 silly mapToRegistry using default registry
+812 silly mapToRegistry registry https://registry.npmjs.org/
+813 silly mapToRegistry data Result {
+813 silly mapToRegistry   raw: 'd3-hierarchy',
+813 silly mapToRegistry   scope: null,
+813 silly mapToRegistry   escapedName: 'd3-hierarchy',
+813 silly mapToRegistry   name: 'd3-hierarchy',
+813 silly mapToRegistry   rawSpec: '',
+813 silly mapToRegistry   spec: 'latest',
+813 silly mapToRegistry   type: 'tag' }
+814 silly mapToRegistry uri https://registry.npmjs.org/d3-hierarchy
+815 verbose addRemoteTarball https://registry.npmjs.org/d3-hierarchy/-/d3-hierarchy-1.1.5.tgz not in flight; adding
+816 verbose addRemoteTarball [ 'https://registry.npmjs.org/d3-hierarchy/-/d3-hierarchy-1.1.5.tgz',
+816 verbose addRemoteTarball   'a1c845c42f84a206bcf1c01c01098ea4ddaa7a26' ]
+817 silly mapToRegistry name d3-ease
+818 silly mapToRegistry using default registry
+819 silly mapToRegistry registry https://registry.npmjs.org/
+820 silly mapToRegistry data Result {
+820 silly mapToRegistry   raw: 'd3-ease',
+820 silly mapToRegistry   scope: null,
+820 silly mapToRegistry   escapedName: 'd3-ease',
+820 silly mapToRegistry   name: 'd3-ease',
+820 silly mapToRegistry   rawSpec: '',
+820 silly mapToRegistry   spec: 'latest',
+820 silly mapToRegistry   type: 'tag' }
+821 silly mapToRegistry uri https://registry.npmjs.org/d3-ease
+822 verbose addRemoteTarball https://registry.npmjs.org/d3-ease/-/d3-ease-1.0.3.tgz not in flight; adding
+823 verbose addRemoteTarball [ 'https://registry.npmjs.org/d3-ease/-/d3-ease-1.0.3.tgz',
+823 verbose addRemoteTarball   '68bfbc349338a380c44d8acc4fbc3304aa2d8c0e' ]
+824 http fetch 200 https://registry.npmjs.org/d3-geo/-/d3-geo-1.6.4.tgz
+825 info retry fetch attempt 1 at 16:39:20
+826 info attempt registry request try #1 at 16:39:20
+827 http fetch GET https://registry.npmjs.org/d3-hierarchy/-/d3-hierarchy-1.1.5.tgz
+828 silly resolveWithNewModule d3-path@1.0.5 checking installable status
+829 silly cache add args [ 'd3-path@1.0.5', null ]
+830 verbose cache add spec d3-path@1.0.5
+831 silly cache add parsed spec Result {
+831 silly cache add   raw: 'd3-path@1.0.5',
+831 silly cache add   scope: null,
+831 silly cache add   escapedName: 'd3-path',
+831 silly cache add   name: 'd3-path',
+831 silly cache add   rawSpec: '1.0.5',
+831 silly cache add   spec: '1.0.5',
+831 silly cache add   type: 'version' }
+832 silly addNamed d3-path@1.0.5
+833 verbose addNamed "1.0.5" is a plain semver version for d3-path
+834 silly mapToRegistry name d3-path
+835 silly mapToRegistry using default registry
+836 silly mapToRegistry registry https://registry.npmjs.org/
+837 silly mapToRegistry data Result {
+837 silly mapToRegistry   raw: 'd3-path',
+837 silly mapToRegistry   scope: null,
+837 silly mapToRegistry   escapedName: 'd3-path',
+837 silly mapToRegistry   name: 'd3-path',
+837 silly mapToRegistry   rawSpec: '',
+837 silly mapToRegistry   spec: 'latest',
+837 silly mapToRegistry   type: 'tag' }
+838 silly mapToRegistry uri https://registry.npmjs.org/d3-path
+839 verbose addNameVersion registry:https://registry.npmjs.org/d3-path not in flight; fetching
+840 silly fetchAndShaCheck shasum ac7987e3e23fe805a990f28e1b50d38fcb822438
+841 info retry fetch attempt 1 at 16:39:20
+842 info attempt registry request try #1 at 16:39:20
+843 http fetch GET https://registry.npmjs.org/d3-ease/-/d3-ease-1.0.3.tgz
+844 silly resolveWithNewModule d3-selection@1.1.0 checking installable status
+845 silly cache add args [ 'd3-selection@1.1.0', null ]
+846 verbose cache add spec d3-selection@1.1.0
+847 silly cache add parsed spec Result {
+847 silly cache add   raw: 'd3-selection@1.1.0',
+847 silly cache add   scope: null,
+847 silly cache add   escapedName: 'd3-selection',
+847 silly cache add   name: 'd3-selection',
+847 silly cache add   rawSpec: '1.1.0',
+847 silly cache add   spec: '1.1.0',
+847 silly cache add   type: 'version' }
+848 silly addNamed d3-selection@1.1.0
+849 verbose addNamed "1.1.0" is a plain semver version for d3-selection
+850 silly mapToRegistry name d3-selection
+851 silly mapToRegistry using default registry
+852 silly mapToRegistry registry https://registry.npmjs.org/
+853 silly mapToRegistry data Result {
+853 silly mapToRegistry   raw: 'd3-selection',
+853 silly mapToRegistry   scope: null,
+853 silly mapToRegistry   escapedName: 'd3-selection',
+853 silly mapToRegistry   name: 'd3-selection',
+853 silly mapToRegistry   rawSpec: '',
+853 silly mapToRegistry   spec: 'latest',
+853 silly mapToRegistry   type: 'tag' }
+854 silly mapToRegistry uri https://registry.npmjs.org/d3-selection
+855 verbose addNameVersion registry:https://registry.npmjs.org/d3-selection not in flight; fetching
+856 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-4636-6bf0ae5b\registry.npmjs.org\d3-quadtree\-\d3-quadtree-1.0.3.tgz not in flight; adding
+857 verbose addTmpTarball already have metadata; skipping unpack for d3-quadtree@1.0.3
+858 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+859 verbose get https://registry.npmjs.org/d3-path not expired, no request
+860 silly resolveWithNewModule d3-brush@1.0.4 checking installable status
+861 silly cache add args [ 'd3-brush@1.0.4', null ]
+862 verbose cache add spec d3-brush@1.0.4
+863 silly cache add parsed spec Result {
+863 silly cache add   raw: 'd3-brush@1.0.4',
+863 silly cache add   scope: null,
+863 silly cache add   escapedName: 'd3-brush',
+863 silly cache add   name: 'd3-brush',
+863 silly cache add   rawSpec: '1.0.4',
+863 silly cache add   spec: '1.0.4',
+863 silly cache add   type: 'version' }
+864 silly addNamed d3-brush@1.0.4
+865 verbose addNamed "1.0.4" is a plain semver version for d3-brush
+866 silly mapToRegistry name d3-brush
+867 silly mapToRegistry using default registry
+868 silly mapToRegistry registry https://registry.npmjs.org/
+869 silly mapToRegistry data Result {
+869 silly mapToRegistry   raw: 'd3-brush',
+869 silly mapToRegistry   scope: null,
+869 silly mapToRegistry   escapedName: 'd3-brush',
+869 silly mapToRegistry   name: 'd3-brush',
+869 silly mapToRegistry   rawSpec: '',
+869 silly mapToRegistry   spec: 'latest',
+869 silly mapToRegistry   type: 'tag' }
+870 silly mapToRegistry uri https://registry.npmjs.org/d3-brush
+871 verbose addNameVersion registry:https://registry.npmjs.org/d3-brush not in flight; fetching
+872 silly resolveWithNewModule d3-transition@1.1.0 checking installable status
+873 silly cache add args [ 'd3-transition@1.1.0', null ]
+874 verbose cache add spec d3-transition@1.1.0
+875 silly cache add parsed spec Result {
+875 silly cache add   raw: 'd3-transition@1.1.0',
+875 silly cache add   scope: null,
+875 silly cache add   escapedName: 'd3-transition',
+875 silly cache add   name: 'd3-transition',
+875 silly cache add   rawSpec: '1.1.0',
+875 silly cache add   spec: '1.1.0',
+875 silly cache add   type: 'version' }
+876 silly addNamed d3-transition@1.1.0
+877 verbose addNamed "1.1.0" is a plain semver version for d3-transition
+878 silly mapToRegistry name d3-transition
+879 silly mapToRegistry using default registry
+880 silly mapToRegistry registry https://registry.npmjs.org/
+881 silly mapToRegistry data Result {
+881 silly mapToRegistry   raw: 'd3-transition',
+881 silly mapToRegistry   scope: null,
+881 silly mapToRegistry   escapedName: 'd3-transition',
+881 silly mapToRegistry   name: 'd3-transition',
+881 silly mapToRegistry   rawSpec: '',
+881 silly mapToRegistry   spec: 'latest',
+881 silly mapToRegistry   type: 'tag' }
+882 silly mapToRegistry uri https://registry.npmjs.org/d3-transition
+883 verbose addNameVersion registry:https://registry.npmjs.org/d3-transition not in flight; fetching
+884 verbose get https://registry.npmjs.org/d3-selection not expired, no request
+885 silly resolveWithNewModule d3-shape@1.2.0 checking installable status
+886 silly cache add args [ 'd3-shape@1.2.0', null ]
+887 verbose cache add spec d3-shape@1.2.0
+888 silly cache add parsed spec Result {
+888 silly cache add   raw: 'd3-shape@1.2.0',
+888 silly cache add   scope: null,
+888 silly cache add   escapedName: 'd3-shape',
+888 silly cache add   name: 'd3-shape',
+888 silly cache add   rawSpec: '1.2.0',
+888 silly cache add   spec: '1.2.0',
+888 silly cache add   type: 'version' }
+889 silly addNamed d3-shape@1.2.0
+890 verbose addNamed "1.2.0" is a plain semver version for d3-shape
+891 silly mapToRegistry name d3-shape
+892 silly mapToRegistry using default registry
+893 silly mapToRegistry registry https://registry.npmjs.org/
+894 silly mapToRegistry data Result {
+894 silly mapToRegistry   raw: 'd3-shape',
+894 silly mapToRegistry   scope: null,
+894 silly mapToRegistry   escapedName: 'd3-shape',
+894 silly mapToRegistry   name: 'd3-shape',
+894 silly mapToRegistry   rawSpec: '',
+894 silly mapToRegistry   spec: 'latest',
+894 silly mapToRegistry   type: 'tag' }
+895 silly mapToRegistry uri https://registry.npmjs.org/d3-shape
+896 verbose addNameVersion registry:https://registry.npmjs.org/d3-shape not in flight; fetching
+897 silly resolveWithNewModule d3-scale@1.0.6 checking installable status
+898 silly cache add args [ 'd3-scale@1.0.6', null ]
+899 verbose cache add spec d3-scale@1.0.6
+900 silly cache add parsed spec Result {
+900 silly cache add   raw: 'd3-scale@1.0.6',
+900 silly cache add   scope: null,
+900 silly cache add   escapedName: 'd3-scale',
+900 silly cache add   name: 'd3-scale',
+900 silly cache add   rawSpec: '1.0.6',
+900 silly cache add   spec: '1.0.6',
+900 silly cache add   type: 'version' }
+901 silly addNamed d3-scale@1.0.6
+902 verbose addNamed "1.0.6" is a plain semver version for d3-scale
+903 silly mapToRegistry name d3-scale
+904 silly mapToRegistry using default registry
+905 silly mapToRegistry registry https://registry.npmjs.org/
+906 silly mapToRegistry data Result {
+906 silly mapToRegistry   raw: 'd3-scale',
+906 silly mapToRegistry   scope: null,
+906 silly mapToRegistry   escapedName: 'd3-scale',
+906 silly mapToRegistry   name: 'd3-scale',
+906 silly mapToRegistry   rawSpec: '',
+906 silly mapToRegistry   spec: 'latest',
+906 silly mapToRegistry   type: 'tag' }
+907 silly mapToRegistry uri https://registry.npmjs.org/d3-scale
+908 verbose addNameVersion registry:https://registry.npmjs.org/d3-scale not in flight; fetching
+909 silly mapToRegistry name d3-selection
+910 silly mapToRegistry using default registry
+911 silly mapToRegistry registry https://registry.npmjs.org/
+912 silly mapToRegistry data Result {
+912 silly mapToRegistry   raw: 'd3-selection',
+912 silly mapToRegistry   scope: null,
+912 silly mapToRegistry   escapedName: 'd3-selection',
+912 silly mapToRegistry   name: 'd3-selection',
+912 silly mapToRegistry   rawSpec: '',
+912 silly mapToRegistry   spec: 'latest',
+912 silly mapToRegistry   type: 'tag' }
+913 silly mapToRegistry uri https://registry.npmjs.org/d3-selection
+914 verbose addRemoteTarball https://registry.npmjs.org/d3-selection/-/d3-selection-1.1.0.tgz not in flight; adding
+915 verbose addRemoteTarball [ 'https://registry.npmjs.org/d3-selection/-/d3-selection-1.1.0.tgz',
+915 verbose addRemoteTarball   '1998684896488f839ca0372123da34f1d318809c' ]
+916 verbose get https://registry.npmjs.org/d3-brush not expired, no request
+917 verbose get https://registry.npmjs.org/d3-transition not expired, no request
+918 silly mapToRegistry name d3-brush
+919 silly mapToRegistry using default registry
+920 silly mapToRegistry registry https://registry.npmjs.org/
+921 silly mapToRegistry data Result {
+921 silly mapToRegistry   raw: 'd3-brush',
+921 silly mapToRegistry   scope: null,
+921 silly mapToRegistry   escapedName: 'd3-brush',
+921 silly mapToRegistry   name: 'd3-brush',
+921 silly mapToRegistry   rawSpec: '',
+921 silly mapToRegistry   spec: 'latest',
+921 silly mapToRegistry   type: 'tag' }
+922 silly mapToRegistry uri https://registry.npmjs.org/d3-brush
+923 verbose addRemoteTarball https://registry.npmjs.org/d3-brush/-/d3-brush-1.0.4.tgz not in flight; adding
+924 verbose addRemoteTarball [ 'https://registry.npmjs.org/d3-brush/-/d3-brush-1.0.4.tgz',
+924 verbose addRemoteTarball   '00c2f238019f24f6c0a194a26d41a1530ffe7bc4' ]
+925 silly mapToRegistry name d3-transition
+926 silly mapToRegistry using default registry
+927 silly mapToRegistry registry https://registry.npmjs.org/
+928 silly mapToRegistry data Result {
+928 silly mapToRegistry   raw: 'd3-transition',
+928 silly mapToRegistry   scope: null,
+928 silly mapToRegistry   escapedName: 'd3-transition',
+928 silly mapToRegistry   name: 'd3-transition',
+928 silly mapToRegistry   rawSpec: '',
+928 silly mapToRegistry   spec: 'latest',
+928 silly mapToRegistry   type: 'tag' }
+929 silly mapToRegistry uri https://registry.npmjs.org/d3-transition
+930 verbose addRemoteTarball https://registry.npmjs.org/d3-transition/-/d3-transition-1.1.0.tgz not in flight; adding
+931 verbose addRemoteTarball [ 'https://registry.npmjs.org/d3-transition/-/d3-transition-1.1.0.tgz',
+931 verbose addRemoteTarball   'cfc85c74e5239324290546623572990560c3966f' ]
+932 verbose get https://registry.npmjs.org/d3-shape not expired, no request
+933 info retry fetch attempt 1 at 16:39:20
+934 info attempt registry request try #1 at 16:39:20
+935 http fetch GET https://registry.npmjs.org/d3-selection/-/d3-selection-1.1.0.tgz
+936 verbose get https://registry.npmjs.org/d3-scale not expired, no request
+937 info retry fetch attempt 1 at 16:39:20
+938 info attempt registry request try #1 at 16:39:20
+939 http fetch GET https://registry.npmjs.org/d3-brush/-/d3-brush-1.0.4.tgz
+940 info retry fetch attempt 1 at 16:39:20
+941 info attempt registry request try #1 at 16:39:20
+942 http fetch GET https://registry.npmjs.org/d3-transition/-/d3-transition-1.1.0.tgz
+943 silly cache afterAdd d3-quadtree@1.0.3
+944 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-quadtree\1.0.3\package\package.json not in flight; writing
+945 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+946 silly cache afterAdd d3-path@1.0.5
+947 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-path\1.0.5\package\package.json not in flight; writing
+948 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+949 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-quadtree\1.0.3\package\package.json written
+950 http fetch 200 https://registry.npmjs.org/d3-ease/-/d3-ease-1.0.3.tgz
+951 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-path\1.0.5\package\package.json written
+952 http 200 https://registry.npmjs.org/d3-force
+953 verbose headers { server: 'nginx/1.10.1',
+953 verbose headers   'content-type': 'application/json',
+953 verbose headers   'last-modified': 'Fri, 10 Mar 2017 18:05:24 GMT',
+953 verbose headers   etag: 'W/"58c2eae4-16be5"',
+953 verbose headers   'content-encoding': 'gzip',
+953 verbose headers   'cache-control': 'max-age=300',
+953 verbose headers   'content-length': '14092',
+953 verbose headers   'accept-ranges': 'bytes',
+953 verbose headers   date: 'Sat, 15 Jul 2017 08:37:40 GMT',
+953 verbose headers   via: '1.1 varnish',
+953 verbose headers   age: '0',
+953 verbose headers   connection: 'keep-alive',
+953 verbose headers   'x-served-by': 'cache-nrt6128-NRT',
+953 verbose headers   'x-cache': 'HIT',
+953 verbose headers   'x-cache-hits': '1',
+953 verbose headers   'x-timer': 'S1500107861.779987,VS0,VE128',
+953 verbose headers   vary: 'Accept-Encoding, Accept' }
+954 silly get cb [ 200,
+954 silly get   { server: 'nginx/1.10.1',
+954 silly get     'content-type': 'application/json',
+954 silly get     'last-modified': 'Fri, 10 Mar 2017 18:05:24 GMT',
+954 silly get     etag: 'W/"58c2eae4-16be5"',
+954 silly get     'content-encoding': 'gzip',
+954 silly get     'cache-control': 'max-age=300',
+954 silly get     'content-length': '14092',
+954 silly get     'accept-ranges': 'bytes',
+954 silly get     date: 'Sat, 15 Jul 2017 08:37:40 GMT',
+954 silly get     via: '1.1 varnish',
+954 silly get     age: '0',
+954 silly get     connection: 'keep-alive',
+954 silly get     'x-served-by': 'cache-nrt6128-NRT',
+954 silly get     'x-cache': 'HIT',
+954 silly get     'x-cache-hits': '1',
+954 silly get     'x-timer': 'S1500107861.779987,VS0,VE128',
+954 silly get     vary: 'Accept-Encoding, Accept' } ]
+955 verbose get saving d3-force to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\d3-force\.cache.json
+956 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+957 silly fetchAndShaCheck shasum 31a705a0b535e65759de14173a31933137f18efa
+958 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-4636-6bf0ae5b\registry.npmjs.org\d3-axis\-\d3-axis-1.0.8.tgz not in flight; adding
+959 verbose addTmpTarball already have metadata; skipping unpack for d3-axis@1.0.8
+960 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+961 http fetch 200 https://registry.npmjs.org/d3-hierarchy/-/d3-hierarchy-1.1.5.tgz
+962 silly resolveWithNewModule d3-force@1.0.6 checking installable status
+963 silly cache add args [ 'd3-force@1.0.6', null ]
+964 verbose cache add spec d3-force@1.0.6
+965 silly cache add parsed spec Result {
+965 silly cache add   raw: 'd3-force@1.0.6',
+965 silly cache add   scope: null,
+965 silly cache add   escapedName: 'd3-force',
+965 silly cache add   name: 'd3-force',
+965 silly cache add   rawSpec: '1.0.6',
+965 silly cache add   spec: '1.0.6',
+965 silly cache add   type: 'version' }
+966 silly addNamed d3-force@1.0.6
+967 verbose addNamed "1.0.6" is a plain semver version for d3-force
+968 silly mapToRegistry name d3-force
+969 silly mapToRegistry using default registry
+970 silly mapToRegistry registry https://registry.npmjs.org/
+971 silly mapToRegistry data Result {
+971 silly mapToRegistry   raw: 'd3-force',
+971 silly mapToRegistry   scope: null,
+971 silly mapToRegistry   escapedName: 'd3-force',
+971 silly mapToRegistry   name: 'd3-force',
+971 silly mapToRegistry   rawSpec: '',
+971 silly mapToRegistry   spec: 'latest',
+971 silly mapToRegistry   type: 'tag' }
+972 silly mapToRegistry uri https://registry.npmjs.org/d3-force
+973 verbose addNameVersion registry:https://registry.npmjs.org/d3-force not in flight; fetching
+974 verbose get https://registry.npmjs.org/d3-force not expired, no request
+975 silly mapToRegistry name d3-force
+976 silly mapToRegistry using default registry
+977 silly mapToRegistry registry https://registry.npmjs.org/
+978 silly mapToRegistry data Result {
+978 silly mapToRegistry   raw: 'd3-force',
+978 silly mapToRegistry   scope: null,
+978 silly mapToRegistry   escapedName: 'd3-force',
+978 silly mapToRegistry   name: 'd3-force',
+978 silly mapToRegistry   rawSpec: '',
+978 silly mapToRegistry   spec: 'latest',
+978 silly mapToRegistry   type: 'tag' }
+979 silly mapToRegistry uri https://registry.npmjs.org/d3-force
+980 verbose addRemoteTarball https://registry.npmjs.org/d3-force/-/d3-force-1.0.6.tgz not in flight; adding
+981 verbose addRemoteTarball [ 'https://registry.npmjs.org/d3-force/-/d3-force-1.0.6.tgz',
+981 verbose addRemoteTarball   'ea7e1b7730e2664cd314f594d6718c57cc132b79' ]
+982 silly cache afterAdd d3-scale@1.0.6
+983 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-scale\1.0.6\package\package.json not in flight; writing
+984 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+985 info retry fetch attempt 1 at 16:39:21
+986 info attempt registry request try #1 at 16:39:21
+987 http fetch GET https://registry.npmjs.org/d3-force/-/d3-force-1.0.6.tgz
+988 silly cache afterAdd d3-shape@1.2.0
+989 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-shape\1.2.0\package\package.json not in flight; writing
+990 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+991 http fetch 200 https://registry.npmjs.org/d3-transition/-/d3-transition-1.1.0.tgz
+992 silly cache afterAdd d3-axis@1.0.8
+993 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-axis\1.0.8\package\package.json not in flight; writing
+994 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+995 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-scale\1.0.6\package\package.json written
+996 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-axis\1.0.8\package\package.json written
+997 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-shape\1.2.0\package\package.json written
+998 http fetch 200 https://registry.npmjs.org/d3-selection/-/d3-selection-1.1.0.tgz
+999 http fetch 200 https://registry.npmjs.org/d3-force/-/d3-force-1.0.6.tgz
+1000 http fetch 200 https://registry.npmjs.org/d3-brush/-/d3-brush-1.0.4.tgz
+1001 http 200 https://registry.npmjs.org/d3-dispatch
+1002 verbose headers { server: 'nginx/1.10.3',
+1002 verbose headers   'content-type': 'application/json',
+1002 verbose headers   'last-modified': 'Fri, 10 Mar 2017 18:11:10 GMT',
+1002 verbose headers   etag: 'W/"58c2ec3e-b19f"',
+1002 verbose headers   'content-encoding': 'gzip',
+1002 verbose headers   'cache-control': 'max-age=300',
+1002 verbose headers   'content-length': '6312',
+1002 verbose headers   'accept-ranges': 'bytes',
+1002 verbose headers   date: 'Sat, 15 Jul 2017 08:37:41 GMT',
+1002 verbose headers   via: '1.1 varnish',
+1002 verbose headers   age: '0',
+1002 verbose headers   connection: 'keep-alive',
+1002 verbose headers   'x-served-by': 'cache-nrt6120-NRT',
+1002 verbose headers   'x-cache': 'HIT',
+1002 verbose headers   'x-cache-hits': '1',
+1002 verbose headers   'x-timer': 'S1500107861.324834,VS0,VE132',
+1002 verbose headers   vary: 'Accept-Encoding, Accept' }
+1003 silly get cb [ 200,
+1003 silly get   { server: 'nginx/1.10.3',
+1003 silly get     'content-type': 'application/json',
+1003 silly get     'last-modified': 'Fri, 10 Mar 2017 18:11:10 GMT',
+1003 silly get     etag: 'W/"58c2ec3e-b19f"',
+1003 silly get     'content-encoding': 'gzip',
+1003 silly get     'cache-control': 'max-age=300',
+1003 silly get     'content-length': '6312',
+1003 silly get     'accept-ranges': 'bytes',
+1003 silly get     date: 'Sat, 15 Jul 2017 08:37:41 GMT',
+1003 silly get     via: '1.1 varnish',
+1003 silly get     age: '0',
+1003 silly get     connection: 'keep-alive',
+1003 silly get     'x-served-by': 'cache-nrt6120-NRT',
+1003 silly get     'x-cache': 'HIT',
+1003 silly get     'x-cache-hits': '1',
+1003 silly get     'x-timer': 'S1500107861.324834,VS0,VE132',
+1003 silly get     vary: 'Accept-Encoding, Accept' } ]
+1004 verbose get saving d3-dispatch to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\d3-dispatch\.cache.json
+1005 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1006 http 200 https://registry.npmjs.org/d3-random
+1007 verbose headers { server: 'nginx/1.10.1',
+1007 verbose headers   'content-type': 'application/json',
+1007 verbose headers   'last-modified': 'Wed, 03 May 2017 17:23:08 GMT',
+1007 verbose headers   etag: 'W/"590a11fc-7a4a"',
+1007 verbose headers   'content-encoding': 'gzip',
+1007 verbose headers   'cache-control': 'max-age=300',
+1007 verbose headers   'content-length': '4922',
+1007 verbose headers   'accept-ranges': 'bytes',
+1007 verbose headers   date: 'Sat, 15 Jul 2017 08:37:41 GMT',
+1007 verbose headers   via: '1.1 varnish',
+1007 verbose headers   age: '0',
+1007 verbose headers   connection: 'keep-alive',
+1007 verbose headers   'x-served-by': 'cache-nrt6126-NRT',
+1007 verbose headers   'x-cache': 'HIT',
+1007 verbose headers   'x-cache-hits': '1',
+1007 verbose headers   'x-timer': 'S1500107862.782887,VS0,VE147',
+1007 verbose headers   vary: 'Accept-Encoding, Accept' }
+1008 silly get cb [ 200,
+1008 silly get   { server: 'nginx/1.10.1',
+1008 silly get     'content-type': 'application/json',
+1008 silly get     'last-modified': 'Wed, 03 May 2017 17:23:08 GMT',
+1008 silly get     etag: 'W/"590a11fc-7a4a"',
+1008 silly get     'content-encoding': 'gzip',
+1008 silly get     'cache-control': 'max-age=300',
+1008 silly get     'content-length': '4922',
+1008 silly get     'accept-ranges': 'bytes',
+1008 silly get     date: 'Sat, 15 Jul 2017 08:37:41 GMT',
+1008 silly get     via: '1.1 varnish',
+1008 silly get     age: '0',
+1008 silly get     connection: 'keep-alive',
+1008 silly get     'x-served-by': 'cache-nrt6126-NRT',
+1008 silly get     'x-cache': 'HIT',
+1008 silly get     'x-cache-hits': '1',
+1008 silly get     'x-timer': 'S1500107862.782887,VS0,VE147',
+1008 silly get     vary: 'Accept-Encoding, Accept' } ]
+1009 verbose get saving d3-random to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\d3-random\.cache.json
+1010 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1011 http 200 https://registry.npmjs.org/d3-queue
+1012 verbose headers { server: 'nginx/1.10.1',
+1012 verbose headers   'content-type': 'application/json',
+1012 verbose headers   'last-modified': 'Tue, 09 May 2017 17:17:46 GMT',
+1012 verbose headers   etag: 'W/"5911f9ba-adf8"',
+1012 verbose headers   'content-encoding': 'gzip',
+1012 verbose headers   'cache-control': 'max-age=300',
+1012 verbose headers   'content-length': '6791',
+1012 verbose headers   'accept-ranges': 'bytes',
+1012 verbose headers   date: 'Sat, 15 Jul 2017 08:37:41 GMT',
+1012 verbose headers   via: '1.1 varnish',
+1012 verbose headers   age: '0',
+1012 verbose headers   connection: 'keep-alive',
+1012 verbose headers   'x-served-by': 'cache-nrt6121-NRT',
+1012 verbose headers   'x-cache': 'HIT',
+1012 verbose headers   'x-cache-hits': '1',
+1012 verbose headers   'x-timer': 'S1500107862.806305,VS0,VE129',
+1012 verbose headers   vary: 'Accept-Encoding, Accept' }
+1013 silly get cb [ 200,
+1013 silly get   { server: 'nginx/1.10.1',
+1013 silly get     'content-type': 'application/json',
+1013 silly get     'last-modified': 'Tue, 09 May 2017 17:17:46 GMT',
+1013 silly get     etag: 'W/"5911f9ba-adf8"',
+1013 silly get     'content-encoding': 'gzip',
+1013 silly get     'cache-control': 'max-age=300',
+1013 silly get     'content-length': '6791',
+1013 silly get     'accept-ranges': 'bytes',
+1013 silly get     date: 'Sat, 15 Jul 2017 08:37:41 GMT',
+1013 silly get     via: '1.1 varnish',
+1013 silly get     age: '0',
+1013 silly get     connection: 'keep-alive',
+1013 silly get     'x-served-by': 'cache-nrt6121-NRT',
+1013 silly get     'x-cache': 'HIT',
+1013 silly get     'x-cache-hits': '1',
+1013 silly get     'x-timer': 'S1500107862.806305,VS0,VE129',
+1013 silly get     vary: 'Accept-Encoding, Accept' } ]
+1014 verbose get saving d3-queue to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\d3-queue\.cache.json
+1015 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1016 silly resolveWithNewModule d3-dispatch@1.0.3 checking installable status
+1017 silly cache add args [ 'd3-dispatch@1.0.3', null ]
+1018 verbose cache add spec d3-dispatch@1.0.3
+1019 silly cache add parsed spec Result {
+1019 silly cache add   raw: 'd3-dispatch@1.0.3',
+1019 silly cache add   scope: null,
+1019 silly cache add   escapedName: 'd3-dispatch',
+1019 silly cache add   name: 'd3-dispatch',
+1019 silly cache add   rawSpec: '1.0.3',
+1019 silly cache add   spec: '1.0.3',
+1019 silly cache add   type: 'version' }
+1020 silly addNamed d3-dispatch@1.0.3
+1021 verbose addNamed "1.0.3" is a plain semver version for d3-dispatch
+1022 silly mapToRegistry name d3-dispatch
+1023 silly mapToRegistry using default registry
+1024 silly mapToRegistry registry https://registry.npmjs.org/
+1025 silly mapToRegistry data Result {
+1025 silly mapToRegistry   raw: 'd3-dispatch',
+1025 silly mapToRegistry   scope: null,
+1025 silly mapToRegistry   escapedName: 'd3-dispatch',
+1025 silly mapToRegistry   name: 'd3-dispatch',
+1025 silly mapToRegistry   rawSpec: '',
+1025 silly mapToRegistry   spec: 'latest',
+1025 silly mapToRegistry   type: 'tag' }
+1026 silly mapToRegistry uri https://registry.npmjs.org/d3-dispatch
+1027 verbose addNameVersion registry:https://registry.npmjs.org/d3-dispatch not in flight; fetching
+1028 verbose get https://registry.npmjs.org/d3-dispatch not expired, no request
+1029 silly resolveWithNewModule d3-random@1.1.0 checking installable status
+1030 silly cache add args [ 'd3-random@1.1.0', null ]
+1031 verbose cache add spec d3-random@1.1.0
+1032 silly cache add parsed spec Result {
+1032 silly cache add   raw: 'd3-random@1.1.0',
+1032 silly cache add   scope: null,
+1032 silly cache add   escapedName: 'd3-random',
+1032 silly cache add   name: 'd3-random',
+1032 silly cache add   rawSpec: '1.1.0',
+1032 silly cache add   spec: '1.1.0',
+1032 silly cache add   type: 'version' }
+1033 silly addNamed d3-random@1.1.0
+1034 verbose addNamed "1.1.0" is a plain semver version for d3-random
+1035 silly mapToRegistry name d3-random
+1036 silly mapToRegistry using default registry
+1037 silly mapToRegistry registry https://registry.npmjs.org/
+1038 silly mapToRegistry data Result {
+1038 silly mapToRegistry   raw: 'd3-random',
+1038 silly mapToRegistry   scope: null,
+1038 silly mapToRegistry   escapedName: 'd3-random',
+1038 silly mapToRegistry   name: 'd3-random',
+1038 silly mapToRegistry   rawSpec: '',
+1038 silly mapToRegistry   spec: 'latest',
+1038 silly mapToRegistry   type: 'tag' }
+1039 silly mapToRegistry uri https://registry.npmjs.org/d3-random
+1040 verbose addNameVersion registry:https://registry.npmjs.org/d3-random not in flight; fetching
+1041 silly mapToRegistry name d3-dispatch
+1042 silly mapToRegistry using default registry
+1043 silly mapToRegistry registry https://registry.npmjs.org/
+1044 silly mapToRegistry data Result {
+1044 silly mapToRegistry   raw: 'd3-dispatch',
+1044 silly mapToRegistry   scope: null,
+1044 silly mapToRegistry   escapedName: 'd3-dispatch',
+1044 silly mapToRegistry   name: 'd3-dispatch',
+1044 silly mapToRegistry   rawSpec: '',
+1044 silly mapToRegistry   spec: 'latest',
+1044 silly mapToRegistry   type: 'tag' }
+1045 silly mapToRegistry uri https://registry.npmjs.org/d3-dispatch
+1046 verbose addRemoteTarball https://registry.npmjs.org/d3-dispatch/-/d3-dispatch-1.0.3.tgz not in flight; adding
+1047 verbose addRemoteTarball [ 'https://registry.npmjs.org/d3-dispatch/-/d3-dispatch-1.0.3.tgz',
+1047 verbose addRemoteTarball   '46e1491eaa9b58c358fce5be4e8bed626e7871f8' ]
+1048 verbose get https://registry.npmjs.org/d3-random not expired, no request
+1049 silly mapToRegistry name d3-random
+1050 silly mapToRegistry using default registry
+1051 silly mapToRegistry registry https://registry.npmjs.org/
+1052 silly mapToRegistry data Result {
+1052 silly mapToRegistry   raw: 'd3-random',
+1052 silly mapToRegistry   scope: null,
+1052 silly mapToRegistry   escapedName: 'd3-random',
+1052 silly mapToRegistry   name: 'd3-random',
+1052 silly mapToRegistry   rawSpec: '',
+1052 silly mapToRegistry   spec: 'latest',
+1052 silly mapToRegistry   type: 'tag' }
+1053 silly mapToRegistry uri https://registry.npmjs.org/d3-random
+1054 verbose addRemoteTarball https://registry.npmjs.org/d3-random/-/d3-random-1.1.0.tgz not in flight; adding
+1055 verbose addRemoteTarball [ 'https://registry.npmjs.org/d3-random/-/d3-random-1.1.0.tgz',
+1055 verbose addRemoteTarball   '6642e506c6fa3a648595d2b2469788a8d12529d3' ]
+1056 silly resolveWithNewModule d3-queue@3.0.7 checking installable status
+1057 silly cache add args [ 'd3-queue@3.0.7', null ]
+1058 verbose cache add spec d3-queue@3.0.7
+1059 silly cache add parsed spec Result {
+1059 silly cache add   raw: 'd3-queue@3.0.7',
+1059 silly cache add   scope: null,
+1059 silly cache add   escapedName: 'd3-queue',
+1059 silly cache add   name: 'd3-queue',
+1059 silly cache add   rawSpec: '3.0.7',
+1059 silly cache add   spec: '3.0.7',
+1059 silly cache add   type: 'version' }
+1060 silly addNamed d3-queue@3.0.7
+1061 verbose addNamed "3.0.7" is a plain semver version for d3-queue
+1062 silly mapToRegistry name d3-queue
+1063 silly mapToRegistry using default registry
+1064 silly mapToRegistry registry https://registry.npmjs.org/
+1065 silly mapToRegistry data Result {
+1065 silly mapToRegistry   raw: 'd3-queue',
+1065 silly mapToRegistry   scope: null,
+1065 silly mapToRegistry   escapedName: 'd3-queue',
+1065 silly mapToRegistry   name: 'd3-queue',
+1065 silly mapToRegistry   rawSpec: '',
+1065 silly mapToRegistry   spec: 'latest',
+1065 silly mapToRegistry   type: 'tag' }
+1066 silly mapToRegistry uri https://registry.npmjs.org/d3-queue
+1067 verbose addNameVersion registry:https://registry.npmjs.org/d3-queue not in flight; fetching
+1068 verbose get https://registry.npmjs.org/d3-queue not expired, no request
+1069 silly mapToRegistry name d3-queue
+1070 silly mapToRegistry using default registry
+1071 silly mapToRegistry registry https://registry.npmjs.org/
+1072 silly mapToRegistry data Result {
+1072 silly mapToRegistry   raw: 'd3-queue',
+1072 silly mapToRegistry   scope: null,
+1072 silly mapToRegistry   escapedName: 'd3-queue',
+1072 silly mapToRegistry   name: 'd3-queue',
+1072 silly mapToRegistry   rawSpec: '',
+1072 silly mapToRegistry   spec: 'latest',
+1072 silly mapToRegistry   type: 'tag' }
+1073 silly mapToRegistry uri https://registry.npmjs.org/d3-queue
+1074 verbose addRemoteTarball https://registry.npmjs.org/d3-queue/-/d3-queue-3.0.7.tgz not in flight; adding
+1075 verbose addRemoteTarball [ 'https://registry.npmjs.org/d3-queue/-/d3-queue-3.0.7.tgz',
+1075 verbose addRemoteTarball   'c93a2e54b417c0959129d7d73f6cf7d4292e7618' ]
+1076 info retry fetch attempt 1 at 16:39:21
+1077 info attempt registry request try #1 at 16:39:21
+1078 http fetch GET https://registry.npmjs.org/d3-dispatch/-/d3-dispatch-1.0.3.tgz
+1079 info retry fetch attempt 1 at 16:39:21
+1080 info attempt registry request try #1 at 16:39:21
+1081 http fetch GET https://registry.npmjs.org/d3-random/-/d3-random-1.1.0.tgz
+1082 info retry fetch attempt 1 at 16:39:21
+1083 info attempt registry request try #1 at 16:39:21
+1084 http fetch GET https://registry.npmjs.org/d3-queue/-/d3-queue-3.0.7.tgz
+1085 http 200 https://registry.npmjs.org/d3-time
+1086 verbose headers { server: 'nginx/1.10.3',
+1086 verbose headers   'content-type': 'application/json',
+1086 verbose headers   'last-modified': 'Wed, 14 Jun 2017 22:08:24 GMT',
+1086 verbose headers   etag: 'W/"5941b3d8-12a82"',
+1086 verbose headers   'content-encoding': 'gzip',
+1086 verbose headers   'cache-control': 'max-age=300',
+1086 verbose headers   'content-length': '10891',
+1086 verbose headers   'accept-ranges': 'bytes',
+1086 verbose headers   date: 'Sat, 15 Jul 2017 08:37:41 GMT',
+1086 verbose headers   via: '1.1 varnish',
+1086 verbose headers   age: '0',
+1086 verbose headers   connection: 'keep-alive',
+1086 verbose headers   'x-served-by': 'cache-nrt6125-NRT',
+1086 verbose headers   'x-cache': 'HIT',
+1086 verbose headers   'x-cache-hits': '1',
+1086 verbose headers   'x-timer': 'S1500107861.469971,VS0,VE134',
+1086 verbose headers   vary: 'Accept-Encoding, Accept' }
+1087 silly get cb [ 200,
+1087 silly get   { server: 'nginx/1.10.3',
+1087 silly get     'content-type': 'application/json',
+1087 silly get     'last-modified': 'Wed, 14 Jun 2017 22:08:24 GMT',
+1087 silly get     etag: 'W/"5941b3d8-12a82"',
+1087 silly get     'content-encoding': 'gzip',
+1087 silly get     'cache-control': 'max-age=300',
+1087 silly get     'content-length': '10891',
+1087 silly get     'accept-ranges': 'bytes',
+1087 silly get     date: 'Sat, 15 Jul 2017 08:37:41 GMT',
+1087 silly get     via: '1.1 varnish',
+1087 silly get     age: '0',
+1087 silly get     connection: 'keep-alive',
+1087 silly get     'x-served-by': 'cache-nrt6125-NRT',
+1087 silly get     'x-cache': 'HIT',
+1087 silly get     'x-cache-hits': '1',
+1087 silly get     'x-timer': 'S1500107861.469971,VS0,VE134',
+1087 silly get     vary: 'Accept-Encoding, Accept' } ]
+1088 verbose get saving d3-time to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\d3-time\.cache.json
+1089 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1090 silly resolveWithNewModule d3-time@1.0.7 checking installable status
+1091 silly cache add args [ 'd3-time@1.0.7', null ]
+1092 verbose cache add spec d3-time@1.0.7
+1093 silly cache add parsed spec Result {
+1093 silly cache add   raw: 'd3-time@1.0.7',
+1093 silly cache add   scope: null,
+1093 silly cache add   escapedName: 'd3-time',
+1093 silly cache add   name: 'd3-time',
+1093 silly cache add   rawSpec: '1.0.7',
+1093 silly cache add   spec: '1.0.7',
+1093 silly cache add   type: 'version' }
+1094 silly addNamed d3-time@1.0.7
+1095 verbose addNamed "1.0.7" is a plain semver version for d3-time
+1096 silly mapToRegistry name d3-time
+1097 silly mapToRegistry using default registry
+1098 silly mapToRegistry registry https://registry.npmjs.org/
+1099 silly mapToRegistry data Result {
+1099 silly mapToRegistry   raw: 'd3-time',
+1099 silly mapToRegistry   scope: null,
+1099 silly mapToRegistry   escapedName: 'd3-time',
+1099 silly mapToRegistry   name: 'd3-time',
+1099 silly mapToRegistry   rawSpec: '',
+1099 silly mapToRegistry   spec: 'latest',
+1099 silly mapToRegistry   type: 'tag' }
+1100 silly mapToRegistry uri https://registry.npmjs.org/d3-time
+1101 verbose addNameVersion registry:https://registry.npmjs.org/d3-time not in flight; fetching
+1102 verbose get https://registry.npmjs.org/d3-time not expired, no request
+1103 silly mapToRegistry name d3-time
+1104 silly mapToRegistry using default registry
+1105 silly mapToRegistry registry https://registry.npmjs.org/
+1106 silly mapToRegistry data Result {
+1106 silly mapToRegistry   raw: 'd3-time',
+1106 silly mapToRegistry   scope: null,
+1106 silly mapToRegistry   escapedName: 'd3-time',
+1106 silly mapToRegistry   name: 'd3-time',
+1106 silly mapToRegistry   rawSpec: '',
+1106 silly mapToRegistry   spec: 'latest',
+1106 silly mapToRegistry   type: 'tag' }
+1107 silly mapToRegistry uri https://registry.npmjs.org/d3-time
+1108 verbose addRemoteTarball https://registry.npmjs.org/d3-time/-/d3-time-1.0.7.tgz not in flight; adding
+1109 verbose addRemoteTarball [ 'https://registry.npmjs.org/d3-time/-/d3-time-1.0.7.tgz',
+1109 verbose addRemoteTarball   '94caf6edbb7879bb809d0d1f7572bc48482f7270' ]
+1110 info retry fetch attempt 1 at 16:39:21
+1111 info attempt registry request try #1 at 16:39:21
+1112 http fetch GET https://registry.npmjs.org/d3-time/-/d3-time-1.0.7.tgz
+1113 http fetch 200 https://registry.npmjs.org/d3-queue/-/d3-queue-3.0.7.tgz
+1114 http 200 https://registry.npmjs.org/d3-request
+1115 verbose headers { server: 'nginx/1.10.3',
+1115 verbose headers   'content-type': 'application/json',
+1115 verbose headers   'last-modified': 'Fri, 10 Mar 2017 17:50:56 GMT',
+1115 verbose headers   etag: 'W/"58c2e780-11508"',
+1115 verbose headers   'content-encoding': 'gzip',
+1115 verbose headers   'cache-control': 'max-age=300',
+1115 verbose headers   'content-length': '8827',
+1115 verbose headers   'accept-ranges': 'bytes',
+1115 verbose headers   date: 'Sat, 15 Jul 2017 08:37:41 GMT',
+1115 verbose headers   via: '1.1 varnish',
+1115 verbose headers   age: '0',
+1115 verbose headers   connection: 'keep-alive',
+1115 verbose headers   'x-served-by': 'cache-nrt6134-NRT',
+1115 verbose headers   'x-cache': 'HIT',
+1115 verbose headers   'x-cache-hits': '1',
+1115 verbose headers   'x-timer': 'S1500107862.727365,VS0,VE173',
+1115 verbose headers   vary: 'Accept-Encoding, Accept' }
+1116 silly get cb [ 200,
+1116 silly get   { server: 'nginx/1.10.3',
+1116 silly get     'content-type': 'application/json',
+1116 silly get     'last-modified': 'Fri, 10 Mar 2017 17:50:56 GMT',
+1116 silly get     etag: 'W/"58c2e780-11508"',
+1116 silly get     'content-encoding': 'gzip',
+1116 silly get     'cache-control': 'max-age=300',
+1116 silly get     'content-length': '8827',
+1116 silly get     'accept-ranges': 'bytes',
+1116 silly get     date: 'Sat, 15 Jul 2017 08:37:41 GMT',
+1116 silly get     via: '1.1 varnish',
+1116 silly get     age: '0',
+1116 silly get     connection: 'keep-alive',
+1116 silly get     'x-served-by': 'cache-nrt6134-NRT',
+1116 silly get     'x-cache': 'HIT',
+1116 silly get     'x-cache-hits': '1',
+1116 silly get     'x-timer': 'S1500107862.727365,VS0,VE173',
+1116 silly get     vary: 'Accept-Encoding, Accept' } ]
+1117 verbose get saving d3-request to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\d3-request\.cache.json
+1118 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1119 silly fetchAndShaCheck shasum c93a2e54b417c0959129d7d73f6cf7d4292e7618
+1120 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-4636-6bf0ae5b\registry.npmjs.org\d3-queue\-\d3-queue-3.0.7.tgz not in flight; adding
+1121 verbose addTmpTarball already have metadata; skipping unpack for d3-queue@3.0.7
+1122 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1123 http fetch 200 https://registry.npmjs.org/d3-dispatch/-/d3-dispatch-1.0.3.tgz
+1124 silly fetchAndShaCheck shasum 46e1491eaa9b58c358fce5be4e8bed626e7871f8
+1125 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-4636-6bf0ae5b\registry.npmjs.org\d3-dispatch\-\d3-dispatch-1.0.3.tgz not in flight; adding
+1126 verbose addTmpTarball already have metadata; skipping unpack for d3-dispatch@1.0.3
+1127 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1128 silly resolveWithNewModule d3-request@1.0.5 checking installable status
+1129 silly cache add args [ 'd3-request@1.0.5', null ]
+1130 verbose cache add spec d3-request@1.0.5
+1131 silly cache add parsed spec Result {
+1131 silly cache add   raw: 'd3-request@1.0.5',
+1131 silly cache add   scope: null,
+1131 silly cache add   escapedName: 'd3-request',
+1131 silly cache add   name: 'd3-request',
+1131 silly cache add   rawSpec: '1.0.5',
+1131 silly cache add   spec: '1.0.5',
+1131 silly cache add   type: 'version' }
+1132 silly addNamed d3-request@1.0.5
+1133 verbose addNamed "1.0.5" is a plain semver version for d3-request
+1134 silly mapToRegistry name d3-request
+1135 silly mapToRegistry using default registry
+1136 silly mapToRegistry registry https://registry.npmjs.org/
+1137 silly mapToRegistry data Result {
+1137 silly mapToRegistry   raw: 'd3-request',
+1137 silly mapToRegistry   scope: null,
+1137 silly mapToRegistry   escapedName: 'd3-request',
+1137 silly mapToRegistry   name: 'd3-request',
+1137 silly mapToRegistry   rawSpec: '',
+1137 silly mapToRegistry   spec: 'latest',
+1137 silly mapToRegistry   type: 'tag' }
+1138 silly mapToRegistry uri https://registry.npmjs.org/d3-request
+1139 verbose addNameVersion registry:https://registry.npmjs.org/d3-request not in flight; fetching
+1140 verbose get https://registry.npmjs.org/d3-request not expired, no request
+1141 silly mapToRegistry name d3-request
+1142 silly mapToRegistry using default registry
+1143 silly mapToRegistry registry https://registry.npmjs.org/
+1144 silly mapToRegistry data Result {
+1144 silly mapToRegistry   raw: 'd3-request',
+1144 silly mapToRegistry   scope: null,
+1144 silly mapToRegistry   escapedName: 'd3-request',
+1144 silly mapToRegistry   name: 'd3-request',
+1144 silly mapToRegistry   rawSpec: '',
+1144 silly mapToRegistry   spec: 'latest',
+1144 silly mapToRegistry   type: 'tag' }
+1145 silly mapToRegistry uri https://registry.npmjs.org/d3-request
+1146 verbose addRemoteTarball https://registry.npmjs.org/d3-request/-/d3-request-1.0.5.tgz not in flight; adding
+1147 verbose addRemoteTarball [ 'https://registry.npmjs.org/d3-request/-/d3-request-1.0.5.tgz',
+1147 verbose addRemoteTarball   '4daae946d1dd0d57dfe01f022956354958d51f23' ]
+1148 http fetch 200 https://registry.npmjs.org/d3-time/-/d3-time-1.0.7.tgz
+1149 info retry fetch attempt 1 at 16:39:21
+1150 info attempt registry request try #1 at 16:39:21
+1151 http fetch GET https://registry.npmjs.org/d3-request/-/d3-request-1.0.5.tgz
+1152 silly cache afterAdd d3-queue@3.0.7
+1153 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-queue\3.0.7\package\package.json not in flight; writing
+1154 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1155 silly cache afterAdd d3-dispatch@1.0.3
+1156 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-dispatch\1.0.3\package\package.json not in flight; writing
+1157 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1158 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-dispatch\1.0.3\package\package.json written
+1159 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-queue\3.0.7\package\package.json written
+1160 http fetch 200 https://registry.npmjs.org/d3-random/-/d3-random-1.1.0.tgz
+1161 silly fetchAndShaCheck shasum 6642e506c6fa3a648595d2b2469788a8d12529d3
+1162 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-4636-6bf0ae5b\registry.npmjs.org\d3-random\-\d3-random-1.1.0.tgz not in flight; adding
+1163 verbose addTmpTarball already have metadata; skipping unpack for d3-random@1.1.0
+1164 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1165 http fetch 200 https://registry.npmjs.org/d3-request/-/d3-request-1.0.5.tgz
+1166 silly fetchAndShaCheck shasum 4daae946d1dd0d57dfe01f022956354958d51f23
+1167 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-4636-6bf0ae5b\registry.npmjs.org\d3-request\-\d3-request-1.0.5.tgz not in flight; adding
+1168 verbose addTmpTarball already have metadata; skipping unpack for d3-request@1.0.5
+1169 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1170 silly cache afterAdd d3-random@1.1.0
+1171 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-random\1.1.0\package\package.json not in flight; writing
+1172 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1173 silly fetchAndShaCheck shasum 94caf6edbb7879bb809d0d1f7572bc48482f7270
+1174 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-4636-6bf0ae5b\registry.npmjs.org\d3-time\-\d3-time-1.0.7.tgz not in flight; adding
+1175 verbose addTmpTarball already have metadata; skipping unpack for d3-time@1.0.7
+1176 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1177 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-random\1.1.0\package\package.json written
+1178 silly cache afterAdd d3-time@1.0.7
+1179 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-time\1.0.7\package\package.json not in flight; writing
+1180 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1181 silly cache afterAdd d3-request@1.0.5
+1182 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-request\1.0.5\package\package.json not in flight; writing
+1183 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1184 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-time\1.0.7\package\package.json written
+1185 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-request\1.0.5\package\package.json written
+1186 http 200 https://registry.npmjs.org/d3-drag
+1187 verbose headers { server: 'nginx/1.10.1',
+1187 verbose headers   'content-type': 'application/json',
+1187 verbose headers   'last-modified': 'Wed, 12 Jul 2017 20:44:55 GMT',
+1187 verbose headers   etag: 'W/"59668a47-e679"',
+1187 verbose headers   'content-encoding': 'gzip',
+1187 verbose headers   'cache-control': 'max-age=300',
+1187 verbose headers   'content-length': '10001',
+1187 verbose headers   'accept-ranges': 'bytes',
+1187 verbose headers   date: 'Sat, 15 Jul 2017 08:37:42 GMT',
+1187 verbose headers   via: '1.1 varnish',
+1187 verbose headers   age: '0',
+1187 verbose headers   connection: 'keep-alive',
+1187 verbose headers   'x-served-by': 'cache-nrt6133-NRT',
+1187 verbose headers   'x-cache': 'HIT',
+1187 verbose headers   'x-cache-hits': '1',
+1187 verbose headers   'x-timer': 'S1500107862.732288,VS0,VE555',
+1187 verbose headers   vary: 'Accept-Encoding, Accept' }
+1188 silly get cb [ 200,
+1188 silly get   { server: 'nginx/1.10.1',
+1188 silly get     'content-type': 'application/json',
+1188 silly get     'last-modified': 'Wed, 12 Jul 2017 20:44:55 GMT',
+1188 silly get     etag: 'W/"59668a47-e679"',
+1188 silly get     'content-encoding': 'gzip',
+1188 silly get     'cache-control': 'max-age=300',
+1188 silly get     'content-length': '10001',
+1188 silly get     'accept-ranges': 'bytes',
+1188 silly get     date: 'Sat, 15 Jul 2017 08:37:42 GMT',
+1188 silly get     via: '1.1 varnish',
+1188 silly get     age: '0',
+1188 silly get     connection: 'keep-alive',
+1188 silly get     'x-served-by': 'cache-nrt6133-NRT',
+1188 silly get     'x-cache': 'HIT',
+1188 silly get     'x-cache-hits': '1',
+1188 silly get     'x-timer': 'S1500107862.732288,VS0,VE555',
+1188 silly get     vary: 'Accept-Encoding, Accept' } ]
+1189 verbose get saving d3-drag to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\d3-drag\.cache.json
+1190 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1191 silly resolveWithNewModule d3-drag@1.1.1 checking installable status
+1192 silly cache add args [ 'd3-drag@1.1.1', null ]
+1193 verbose cache add spec d3-drag@1.1.1
+1194 silly cache add parsed spec Result {
+1194 silly cache add   raw: 'd3-drag@1.1.1',
+1194 silly cache add   scope: null,
+1194 silly cache add   escapedName: 'd3-drag',
+1194 silly cache add   name: 'd3-drag',
+1194 silly cache add   rawSpec: '1.1.1',
+1194 silly cache add   spec: '1.1.1',
+1194 silly cache add   type: 'version' }
+1195 silly addNamed d3-drag@1.1.1
+1196 verbose addNamed "1.1.1" is a plain semver version for d3-drag
+1197 silly mapToRegistry name d3-drag
+1198 silly mapToRegistry using default registry
+1199 silly mapToRegistry registry https://registry.npmjs.org/
+1200 silly mapToRegistry data Result {
+1200 silly mapToRegistry   raw: 'd3-drag',
+1200 silly mapToRegistry   scope: null,
+1200 silly mapToRegistry   escapedName: 'd3-drag',
+1200 silly mapToRegistry   name: 'd3-drag',
+1200 silly mapToRegistry   rawSpec: '',
+1200 silly mapToRegistry   spec: 'latest',
+1200 silly mapToRegistry   type: 'tag' }
+1201 silly mapToRegistry uri https://registry.npmjs.org/d3-drag
+1202 verbose addNameVersion registry:https://registry.npmjs.org/d3-drag not in flight; fetching
+1203 verbose get https://registry.npmjs.org/d3-drag not expired, no request
+1204 silly mapToRegistry name d3-drag
+1205 silly mapToRegistry using default registry
+1206 silly mapToRegistry registry https://registry.npmjs.org/
+1207 silly mapToRegistry data Result {
+1207 silly mapToRegistry   raw: 'd3-drag',
+1207 silly mapToRegistry   scope: null,
+1207 silly mapToRegistry   escapedName: 'd3-drag',
+1207 silly mapToRegistry   name: 'd3-drag',
+1207 silly mapToRegistry   rawSpec: '',
+1207 silly mapToRegistry   spec: 'latest',
+1207 silly mapToRegistry   type: 'tag' }
+1208 silly mapToRegistry uri https://registry.npmjs.org/d3-drag
+1209 verbose addRemoteTarball https://registry.npmjs.org/d3-drag/-/d3-drag-1.1.1.tgz not in flight; adding
+1210 verbose addRemoteTarball [ 'https://registry.npmjs.org/d3-drag/-/d3-drag-1.1.1.tgz',
+1210 verbose addRemoteTarball   'b5155304433b18ba38726b2184d0098e820dc64b' ]
+1211 info retry fetch attempt 1 at 16:39:21
+1212 info attempt registry request try #1 at 16:39:21
+1213 http fetch GET https://registry.npmjs.org/d3-drag/-/d3-drag-1.1.1.tgz
+1214 silly fetchAndShaCheck shasum cfc85c74e5239324290546623572990560c3966f
+1215 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-4636-6bf0ae5b\registry.npmjs.org\d3-transition\-\d3-transition-1.1.0.tgz not in flight; adding
+1216 verbose addTmpTarball already have metadata; skipping unpack for d3-transition@1.1.0
+1217 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1218 http fetch 200 https://registry.npmjs.org/d3-drag/-/d3-drag-1.1.1.tgz
+1219 silly cache afterAdd d3-transition@1.1.0
+1220 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-transition\1.1.0\package\package.json not in flight; writing
+1221 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1222 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-transition\1.1.0\package\package.json written
+1223 silly fetchAndShaCheck shasum 8417de9a077f98f9ce83b1998efb8ee12b4db26e
+1224 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-4636-6bf0ae5b\registry.npmjs.org\d3-zoom\-\d3-zoom-1.5.0.tgz not in flight; adding
+1225 verbose addTmpTarball already have metadata; skipping unpack for d3-zoom@1.5.0
+1226 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1227 silly cache afterAdd d3-zoom@1.5.0
+1228 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-zoom\1.5.0\package\package.json not in flight; writing
+1229 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1230 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-zoom\1.5.0\package\package.json written
+1231 silly fetchAndShaCheck shasum 1687667e8f13a2d158c80c1480c5a29cb0d8973c
+1232 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-4636-6bf0ae5b\registry.npmjs.org\d3-voronoi\-\d3-voronoi-1.1.2.tgz not in flight; adding
+1233 verbose addTmpTarball already have metadata; skipping unpack for d3-voronoi@1.1.2
+1234 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1235 http 200 https://registry.npmjs.org/d3-format
+1236 verbose headers { server: 'nginx/1.10.1',
+1236 verbose headers   'content-type': 'application/json',
+1236 verbose headers   'last-modified': 'Thu, 13 Jul 2017 06:16:37 GMT',
+1236 verbose headers   etag: 'W/"59671045-d0e2"',
+1236 verbose headers   'content-encoding': 'gzip',
+1236 verbose headers   'cache-control': 'max-age=300',
+1236 verbose headers   'content-length': '9297',
+1236 verbose headers   'accept-ranges': 'bytes',
+1236 verbose headers   date: 'Sat, 15 Jul 2017 08:37:40 GMT',
+1236 verbose headers   via: '1.1 varnish',
+1236 verbose headers   age: '0',
+1236 verbose headers   connection: 'keep-alive',
+1236 verbose headers   'x-served-by': 'cache-nrt6130-NRT',
+1236 verbose headers   'x-cache': 'HIT',
+1236 verbose headers   'x-cache-hits': '1',
+1236 verbose headers   'x-timer': 'S1500107861.868070,VS0,VE132',
+1236 verbose headers   vary: 'Accept-Encoding, Accept' }
+1237 silly get cb [ 200,
+1237 silly get   { server: 'nginx/1.10.1',
+1237 silly get     'content-type': 'application/json',
+1237 silly get     'last-modified': 'Thu, 13 Jul 2017 06:16:37 GMT',
+1237 silly get     etag: 'W/"59671045-d0e2"',
+1237 silly get     'content-encoding': 'gzip',
+1237 silly get     'cache-control': 'max-age=300',
+1237 silly get     'content-length': '9297',
+1237 silly get     'accept-ranges': 'bytes',
+1237 silly get     date: 'Sat, 15 Jul 2017 08:37:40 GMT',
+1237 silly get     via: '1.1 varnish',
+1237 silly get     age: '0',
+1237 silly get     connection: 'keep-alive',
+1237 silly get     'x-served-by': 'cache-nrt6130-NRT',
+1237 silly get     'x-cache': 'HIT',
+1237 silly get     'x-cache-hits': '1',
+1237 silly get     'x-timer': 'S1500107861.868070,VS0,VE132',
+1237 silly get     vary: 'Accept-Encoding, Accept' } ]
+1238 verbose get saving d3-format to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\d3-format\.cache.json
+1239 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1240 silly cache afterAdd d3-voronoi@1.1.2
+1241 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-voronoi\1.1.2\package\package.json not in flight; writing
+1242 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1243 silly resolveWithNewModule d3-format@1.2.0 checking installable status
+1244 silly cache add args [ 'd3-format@1.2.0', null ]
+1245 verbose cache add spec d3-format@1.2.0
+1246 silly cache add parsed spec Result {
+1246 silly cache add   raw: 'd3-format@1.2.0',
+1246 silly cache add   scope: null,
+1246 silly cache add   escapedName: 'd3-format',
+1246 silly cache add   name: 'd3-format',
+1246 silly cache add   rawSpec: '1.2.0',
+1246 silly cache add   spec: '1.2.0',
+1246 silly cache add   type: 'version' }
+1247 silly addNamed d3-format@1.2.0
+1248 verbose addNamed "1.2.0" is a plain semver version for d3-format
+1249 silly mapToRegistry name d3-format
+1250 silly mapToRegistry using default registry
+1251 silly mapToRegistry registry https://registry.npmjs.org/
+1252 silly mapToRegistry data Result {
+1252 silly mapToRegistry   raw: 'd3-format',
+1252 silly mapToRegistry   scope: null,
+1252 silly mapToRegistry   escapedName: 'd3-format',
+1252 silly mapToRegistry   name: 'd3-format',
+1252 silly mapToRegistry   rawSpec: '',
+1252 silly mapToRegistry   spec: 'latest',
+1252 silly mapToRegistry   type: 'tag' }
+1253 silly mapToRegistry uri https://registry.npmjs.org/d3-format
+1254 verbose addNameVersion registry:https://registry.npmjs.org/d3-format not in flight; fetching
+1255 http 200 https://registry.npmjs.org/d3-chord
+1256 verbose headers { server: 'nginx/1.10.1',
+1256 verbose headers   'content-type': 'application/json',
+1256 verbose headers   'last-modified': 'Fri, 10 Mar 2017 18:21:10 GMT',
+1256 verbose headers   etag: 'W/"58c2ee96-688d"',
+1256 verbose headers   'content-encoding': 'gzip',
+1256 verbose headers   'cache-control': 'max-age=300',
+1256 verbose headers   'content-length': '5180',
+1256 verbose headers   'accept-ranges': 'bytes',
+1256 verbose headers   date: 'Sat, 15 Jul 2017 08:37:42 GMT',
+1256 verbose headers   via: '1.1 varnish',
+1256 verbose headers   age: '0',
+1256 verbose headers   connection: 'keep-alive',
+1256 verbose headers   'x-served-by': 'cache-nrt6124-NRT',
+1256 verbose headers   'x-cache': 'HIT',
+1256 verbose headers   'x-cache-hits': '1',
+1256 verbose headers   'x-timer': 'S1500107862.739933,VS0,VE565',
+1256 verbose headers   vary: 'Accept-Encoding, Accept' }
+1257 silly get cb [ 200,
+1257 silly get   { server: 'nginx/1.10.1',
+1257 silly get     'content-type': 'application/json',
+1257 silly get     'last-modified': 'Fri, 10 Mar 2017 18:21:10 GMT',
+1257 silly get     etag: 'W/"58c2ee96-688d"',
+1257 silly get     'content-encoding': 'gzip',
+1257 silly get     'cache-control': 'max-age=300',
+1257 silly get     'content-length': '5180',
+1257 silly get     'accept-ranges': 'bytes',
+1257 silly get     date: 'Sat, 15 Jul 2017 08:37:42 GMT',
+1257 silly get     via: '1.1 varnish',
+1257 silly get     age: '0',
+1257 silly get     connection: 'keep-alive',
+1257 silly get     'x-served-by': 'cache-nrt6124-NRT',
+1257 silly get     'x-cache': 'HIT',
+1257 silly get     'x-cache-hits': '1',
+1257 silly get     'x-timer': 'S1500107862.739933,VS0,VE565',
+1257 silly get     vary: 'Accept-Encoding, Accept' } ]
+1258 verbose get saving d3-chord to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\d3-chord\.cache.json
+1259 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1260 verbose get https://registry.npmjs.org/d3-format not expired, no request
+1261 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-voronoi\1.1.2\package\package.json written
+1262 silly resolveWithNewModule d3-chord@1.0.4 checking installable status
+1263 silly cache add args [ 'd3-chord@1.0.4', null ]
+1264 verbose cache add spec d3-chord@1.0.4
+1265 silly cache add parsed spec Result {
+1265 silly cache add   raw: 'd3-chord@1.0.4',
+1265 silly cache add   scope: null,
+1265 silly cache add   escapedName: 'd3-chord',
+1265 silly cache add   name: 'd3-chord',
+1265 silly cache add   rawSpec: '1.0.4',
+1265 silly cache add   spec: '1.0.4',
+1265 silly cache add   type: 'version' }
+1266 silly addNamed d3-chord@1.0.4
+1267 verbose addNamed "1.0.4" is a plain semver version for d3-chord
+1268 silly mapToRegistry name d3-chord
+1269 silly mapToRegistry using default registry
+1270 silly mapToRegistry registry https://registry.npmjs.org/
+1271 silly mapToRegistry data Result {
+1271 silly mapToRegistry   raw: 'd3-chord',
+1271 silly mapToRegistry   scope: null,
+1271 silly mapToRegistry   escapedName: 'd3-chord',
+1271 silly mapToRegistry   name: 'd3-chord',
+1271 silly mapToRegistry   rawSpec: '',
+1271 silly mapToRegistry   spec: 'latest',
+1271 silly mapToRegistry   type: 'tag' }
+1272 silly mapToRegistry uri https://registry.npmjs.org/d3-chord
+1273 verbose addNameVersion registry:https://registry.npmjs.org/d3-chord not in flight; fetching
+1274 verbose get https://registry.npmjs.org/d3-chord not expired, no request
+1275 silly mapToRegistry name d3-chord
+1276 silly mapToRegistry using default registry
+1277 silly mapToRegistry registry https://registry.npmjs.org/
+1278 silly mapToRegistry data Result {
+1278 silly mapToRegistry   raw: 'd3-chord',
+1278 silly mapToRegistry   scope: null,
+1278 silly mapToRegistry   escapedName: 'd3-chord',
+1278 silly mapToRegistry   name: 'd3-chord',
+1278 silly mapToRegistry   rawSpec: '',
+1278 silly mapToRegistry   spec: 'latest',
+1278 silly mapToRegistry   type: 'tag' }
+1279 silly mapToRegistry uri https://registry.npmjs.org/d3-chord
+1280 verbose addRemoteTarball https://registry.npmjs.org/d3-chord/-/d3-chord-1.0.4.tgz not in flight; adding
+1281 verbose addRemoteTarball [ 'https://registry.npmjs.org/d3-chord/-/d3-chord-1.0.4.tgz',
+1281 verbose addRemoteTarball   '7dec4f0ba886f713fe111c45f763414f6f74ca2c' ]
+1282 silly cache afterAdd d3-format@1.2.0
+1283 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-format\1.2.0\package\package.json not in flight; writing
+1284 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1285 info retry fetch attempt 1 at 16:39:22
+1286 info attempt registry request try #1 at 16:39:22
+1287 http fetch GET https://registry.npmjs.org/d3-chord/-/d3-chord-1.0.4.tgz
+1288 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-format\1.2.0\package\package.json written
+1289 http fetch 200 https://registry.npmjs.org/d3-chord/-/d3-chord-1.0.4.tgz
+1290 silly fetchAndShaCheck shasum 1998684896488f839ca0372123da34f1d318809c
+1291 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-4636-6bf0ae5b\registry.npmjs.org\d3-selection\-\d3-selection-1.1.0.tgz not in flight; adding
+1292 verbose addTmpTarball already have metadata; skipping unpack for d3-selection@1.1.0
+1293 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1294 silly cache afterAdd d3-selection@1.1.0
+1295 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-selection\1.1.0\package\package.json not in flight; writing
+1296 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1297 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-selection\1.1.0\package\package.json written
+1298 silly fetchAndShaCheck shasum b5155304433b18ba38726b2184d0098e820dc64b
+1299 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-4636-6bf0ae5b\registry.npmjs.org\d3-drag\-\d3-drag-1.1.1.tgz not in flight; adding
+1300 verbose addTmpTarball already have metadata; skipping unpack for d3-drag@1.1.1
+1301 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1302 silly cache afterAdd d3-drag@1.1.1
+1303 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-drag\1.1.1\package\package.json not in flight; writing
+1304 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1305 http 200 https://registry.npmjs.org/d3-polygon
+1306 verbose headers { server: 'nginx/1.10.3',
+1306 verbose headers   'content-type': 'application/json',
+1306 verbose headers   'last-modified': 'Fri, 10 Mar 2017 17:56:33 GMT',
+1306 verbose headers   etag: 'W/"58c2e8d1-692f"',
+1306 verbose headers   'content-encoding': 'gzip',
+1306 verbose headers   'cache-control': 'max-age=300',
+1306 verbose headers   'content-length': '4169',
+1306 verbose headers   'accept-ranges': 'bytes',
+1306 verbose headers   date: 'Sat, 15 Jul 2017 08:37:40 GMT',
+1306 verbose headers   via: '1.1 varnish',
+1306 verbose headers   age: '0',
+1306 verbose headers   connection: 'keep-alive',
+1306 verbose headers   'x-served-by': 'cache-nrt6125-NRT',
+1306 verbose headers   'x-cache': 'HIT',
+1306 verbose headers   'x-cache-hits': '1',
+1306 verbose headers   'x-timer': 'S1500107861.724620,VS0,VE133',
+1306 verbose headers   vary: 'Accept-Encoding, Accept' }
+1307 silly get cb [ 200,
+1307 silly get   { server: 'nginx/1.10.3',
+1307 silly get     'content-type': 'application/json',
+1307 silly get     'last-modified': 'Fri, 10 Mar 2017 17:56:33 GMT',
+1307 silly get     etag: 'W/"58c2e8d1-692f"',
+1307 silly get     'content-encoding': 'gzip',
+1307 silly get     'cache-control': 'max-age=300',
+1307 silly get     'content-length': '4169',
+1307 silly get     'accept-ranges': 'bytes',
+1307 silly get     date: 'Sat, 15 Jul 2017 08:37:40 GMT',
+1307 silly get     via: '1.1 varnish',
+1307 silly get     age: '0',
+1307 silly get     connection: 'keep-alive',
+1307 silly get     'x-served-by': 'cache-nrt6125-NRT',
+1307 silly get     'x-cache': 'HIT',
+1307 silly get     'x-cache-hits': '1',
+1307 silly get     'x-timer': 'S1500107861.724620,VS0,VE133',
+1307 silly get     vary: 'Accept-Encoding, Accept' } ]
+1308 verbose get saving d3-polygon to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\d3-polygon\.cache.json
+1309 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1310 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-drag\1.1.1\package\package.json written
+1311 silly resolveWithNewModule d3-polygon@1.0.3 checking installable status
+1312 silly cache add args [ 'd3-polygon@1.0.3', null ]
+1313 verbose cache add spec d3-polygon@1.0.3
+1314 silly cache add parsed spec Result {
+1314 silly cache add   raw: 'd3-polygon@1.0.3',
+1314 silly cache add   scope: null,
+1314 silly cache add   escapedName: 'd3-polygon',
+1314 silly cache add   name: 'd3-polygon',
+1314 silly cache add   rawSpec: '1.0.3',
+1314 silly cache add   spec: '1.0.3',
+1314 silly cache add   type: 'version' }
+1315 silly addNamed d3-polygon@1.0.3
+1316 verbose addNamed "1.0.3" is a plain semver version for d3-polygon
+1317 silly mapToRegistry name d3-polygon
+1318 silly mapToRegistry using default registry
+1319 silly mapToRegistry registry https://registry.npmjs.org/
+1320 silly mapToRegistry data Result {
+1320 silly mapToRegistry   raw: 'd3-polygon',
+1320 silly mapToRegistry   scope: null,
+1320 silly mapToRegistry   escapedName: 'd3-polygon',
+1320 silly mapToRegistry   name: 'd3-polygon',
+1320 silly mapToRegistry   rawSpec: '',
+1320 silly mapToRegistry   spec: 'latest',
+1320 silly mapToRegistry   type: 'tag' }
+1321 silly mapToRegistry uri https://registry.npmjs.org/d3-polygon
+1322 verbose addNameVersion registry:https://registry.npmjs.org/d3-polygon not in flight; fetching
+1323 verbose get https://registry.npmjs.org/d3-polygon not expired, no request
+1324 silly mapToRegistry name d3-polygon
+1325 silly mapToRegistry using default registry
+1326 silly mapToRegistry registry https://registry.npmjs.org/
+1327 silly mapToRegistry data Result {
+1327 silly mapToRegistry   raw: 'd3-polygon',
+1327 silly mapToRegistry   scope: null,
+1327 silly mapToRegistry   escapedName: 'd3-polygon',
+1327 silly mapToRegistry   name: 'd3-polygon',
+1327 silly mapToRegistry   rawSpec: '',
+1327 silly mapToRegistry   spec: 'latest',
+1327 silly mapToRegistry   type: 'tag' }
+1328 silly mapToRegistry uri https://registry.npmjs.org/d3-polygon
+1329 verbose addRemoteTarball https://registry.npmjs.org/d3-polygon/-/d3-polygon-1.0.3.tgz not in flight; adding
+1330 verbose addRemoteTarball [ 'https://registry.npmjs.org/d3-polygon/-/d3-polygon-1.0.3.tgz',
+1330 verbose addRemoteTarball   '16888e9026460933f2b179652ad378224d382c62' ]
+1331 info retry fetch attempt 1 at 16:39:23
+1332 info attempt registry request try #1 at 16:39:23
+1333 http fetch GET https://registry.npmjs.org/d3-polygon/-/d3-polygon-1.0.3.tgz
+1334 http fetch 200 https://registry.npmjs.org/d3-polygon/-/d3-polygon-1.0.3.tgz
+1335 silly fetchAndShaCheck shasum 16888e9026460933f2b179652ad378224d382c62
+1336 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-4636-6bf0ae5b\registry.npmjs.org\d3-polygon\-\d3-polygon-1.0.3.tgz not in flight; adding
+1337 verbose addTmpTarball already have metadata; skipping unpack for d3-polygon@1.0.3
+1338 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1339 silly cache afterAdd d3-polygon@1.0.3
+1340 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-polygon\1.0.3\package\package.json not in flight; writing
+1341 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1342 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-polygon\1.0.3\package\package.json written
+1343 silly fetchAndShaCheck shasum 7dec4f0ba886f713fe111c45f763414f6f74ca2c
+1344 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-4636-6bf0ae5b\registry.npmjs.org\d3-chord\-\d3-chord-1.0.4.tgz not in flight; adding
+1345 verbose addTmpTarball already have metadata; skipping unpack for d3-chord@1.0.4
+1346 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1347 silly cache afterAdd d3-chord@1.0.4
+1348 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-chord\1.0.4\package\package.json not in flight; writing
+1349 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1350 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-chord\1.0.4\package\package.json written
+1351 silly fetchAndShaCheck shasum ea7e1b7730e2664cd314f594d6718c57cc132b79
+1352 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-4636-6bf0ae5b\registry.npmjs.org\d3-force\-\d3-force-1.0.6.tgz not in flight; adding
+1353 verbose addTmpTarball already have metadata; skipping unpack for d3-force@1.0.6
+1354 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1355 silly cache afterAdd d3-force@1.0.6
+1356 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-force\1.0.6\package\package.json not in flight; writing
+1357 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1358 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-force\1.0.6\package\package.json written
+1359 silly fetchAndShaCheck shasum a1c845c42f84a206bcf1c01c01098ea4ddaa7a26
+1360 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-4636-6bf0ae5b\registry.npmjs.org\d3-hierarchy\-\d3-hierarchy-1.1.5.tgz not in flight; adding
+1361 verbose addTmpTarball already have metadata; skipping unpack for d3-hierarchy@1.1.5
+1362 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1363 silly cache afterAdd d3-hierarchy@1.1.5
+1364 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-hierarchy\1.1.5\package\package.json not in flight; writing
+1365 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1366 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-hierarchy\1.1.5\package\package.json written
+1367 silly fetchAndShaCheck shasum f20e1e461cb1845f5a8be55ab6f876542a7e3199
+1368 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-4636-6bf0ae5b\registry.npmjs.org\d3-geo\-\d3-geo-1.6.4.tgz not in flight; adding
+1369 verbose addTmpTarball already have metadata; skipping unpack for d3-geo@1.6.4
+1370 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1371 silly cache afterAdd d3-geo@1.6.4
+1372 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-geo\1.6.4\package\package.json not in flight; writing
+1373 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1374 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-geo\1.6.4\package\package.json written
+1375 silly fetchAndShaCheck shasum 00c2f238019f24f6c0a194a26d41a1530ffe7bc4
+1376 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-4636-6bf0ae5b\registry.npmjs.org\d3-brush\-\d3-brush-1.0.4.tgz not in flight; adding
+1377 verbose addTmpTarball already have metadata; skipping unpack for d3-brush@1.0.4
+1378 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1379 silly cache afterAdd d3-brush@1.0.4
+1380 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-brush\1.0.4\package\package.json not in flight; writing
+1381 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1382 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\d3-brush\1.0.4\package\package.json written
+1383 info retry will retry, error on last attempt: Error: read ECONNRESET
+1384 silly fetchAndShaCheck shasum 68bfbc349338a380c44d8acc4fbc3304aa2d8c0e
+1385 silly rollbackFailedOptional Starting
+1386 silly rollbackFailedOptional Finishing
+1387 silly runTopLevelLifecycles Finishing
+1388 silly install printInstalled
+1389 verbose stack Error: shasum check failed for C:\Users\ADMINI~1\AppData\Local\Temp\npm-4636-6bf0ae5b\registry.npmjs.org\d3-ease\-\d3-ease-1.0.3.tgz
+1389 verbose stack Expected: 68bfbc349338a380c44d8acc4fbc3304aa2d8c0e
+1389 verbose stack Actual:   eb9066396c5f1df2374af75a90e24c3a937a1429
+1389 verbose stack From:     https://registry.npmjs.org/d3-ease/-/d3-ease-1.0.3.tgz
+1389 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\sha\index.js:25:8
+1389 verbose stack     at ReadStream.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\sha\index.js:72:7)
+1389 verbose stack     at emitNone (events.js:91:20)
+1389 verbose stack     at ReadStream.emit (events.js:185:7)
+1389 verbose stack     at endReadableNT (_stream_readable.js:974:12)
+1389 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:74:11)
+1389 verbose stack     at process._tickCallback (internal/process/next_tick.js:98:9)
+1390 verbose cwd H:\d3
+1391 error Windows_NT 6.1.7601
+1392 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "d3"
+1393 error node v6.10.0
+1394 error npm  v3.10.10
+1395 error shasum check failed for C:\Users\ADMINI~1\AppData\Local\Temp\npm-4636-6bf0ae5b\registry.npmjs.org\d3-ease\-\d3-ease-1.0.3.tgz
+1395 error Expected: 68bfbc349338a380c44d8acc4fbc3304aa2d8c0e
+1395 error Actual:   eb9066396c5f1df2374af75a90e24c3a937a1429
+1395 error From:     https://registry.npmjs.org/d3-ease/-/d3-ease-1.0.3.tgz
+1396 error If you need help, you may report this error at:
+1396 error     <https://github.com/npm/npm/issues>
+1397 verbose exit [ 1, true ]
